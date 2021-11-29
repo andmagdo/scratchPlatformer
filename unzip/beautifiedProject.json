@@ -5424,7 +5424,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 17,
+            "layerOrder": 16,
             "lists": {},
             "name": "PlayerCharacter",
             "rotationStyle": "all around",
@@ -8157,7 +8157,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 15,
+            "layerOrder": 14,
             "lists": {
                 "p~gtd`(HOdU`iHPTnXGo": [
                     "localFloorData",
@@ -26286,7 +26286,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 14,
+            "layerOrder": 13,
             "lists": {},
             "name": "BlockLoc",
             "rotationStyle": "all around",
@@ -26312,139 +26312,6 @@
             "volume": 100,
             "x": -138,
             "y": -27
-        },
-        {
-            "blocks": {
-                "Ea10y(k`W;UEQHOnjy9P": {
-                    "fields": {},
-                    "inputs": {
-                        "X": [
-                            3,
-                            "YVD9HpE.pybTxhWt{,Ma",
-                            [
-                                4,
-                                "36"
-                            ]
-                        ],
-                        "Y": [
-                            3,
-                            "ljZXHH-S;zJ/b1a@)w4y",
-                            [
-                                4,
-                                "28"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "motion_gotoxy",
-                    "parent": "tmj,S!,hzw_KQ0(xuS3i",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "YVD9HpE.pybTxhWt{,Ma": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_mousex",
-                    "parent": "Ea10y(k`W;UEQHOnjy9P",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "Y|;44A$h}IHuXm6`?~^m": {
-                    "fields": {
-                        "EFFECT": [
-                            "GHOST",
-                            null
-                        ]
-                    },
-                    "inputs": {
-                        "CHANGE": [
-                            1,
-                            [
-                                4,
-                                "9999999999"
-                            ]
-                        ]
-                    },
-                    "next": "tmj,S!,hzw_KQ0(xuS3i",
-                    "opcode": "looks_changeeffectby",
-                    "parent": "mCvQH.F/GLl|3]mA*r2W",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "ljZXHH-S;zJ/b1a@)w4y": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_mousey",
-                    "parent": "Ea10y(k`W;UEQHOnjy9P",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "mCvQH.F/GLl|3]mA*r2W": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": "Y|;44A$h}IHuXm6`?~^m",
-                    "opcode": "event_whenflagclicked",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": 32,
-                    "y": 75
-                },
-                "tmj,S!,hzw_KQ0(xuS3i": {
-                    "fields": {},
-                    "inputs": {
-                        "SUBSTACK": [
-                            2,
-                            "Ea10y(k`W;UEQHOnjy9P"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_forever",
-                    "parent": "Y|;44A$h}IHuXm6`?~^m",
-                    "shadow": false,
-                    "topLevel": false
-                }
-            },
-            "broadcasts": {},
-            "comments": {},
-            "costumes": [
-                {
-                    "assetId": "2b0f8c1b970360b3d8d1a7b5009aeb53",
-                    "bitmapResolution": 2,
-                    "dataFormat": "png",
-                    "md5ext": "2b0f8c1b970360b3d8d1a7b5009aeb53.png",
-                    "name": "costume1",
-                    "rotationCenterX": 0,
-                    "rotationCenterY": 1
-                }
-            ],
-            "currentCostume": 0,
-            "direction": 90,
-            "draggable": false,
-            "isStage": false,
-            "layerOrder": 13,
-            "lists": {},
-            "name": "MousePointer",
-            "rotationStyle": "all around",
-            "size": 100,
-            "sounds": [
-                {
-                    "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
-                    "dataFormat": "wav",
-                    "format": "",
-                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
-                    "name": "pop",
-                    "rate": 44100,
-                    "sampleCount": 1032
-                }
-            ],
-            "variables": {},
-            "visible": true,
-            "volume": 100,
-            "x": -240,
-            "y": 152
         },
         {
             "blocks": {
@@ -28506,7 +28373,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 16,
+            "layerOrder": 15,
             "lists": {
                 "4d(E;rOgqnsv8GoMV]Z?": [
                     "localFloorData",
