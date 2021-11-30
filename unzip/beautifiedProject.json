@@ -146,7 +146,7 @@
         },
         {
             "height": 0,
-            "id": "vn?6yy{qQC(Ad:+O^r-[_yposition",
+            "id": "d5^~,sOQbvbKM}YH}NRV_yposition",
             "isDiscrete": true,
             "mode": "default",
             "opcode": "motion_yposition",
@@ -190,8 +190,8 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
-            "visible": false,
+            "value": 6,
+            "visible": true,
             "width": 0,
             "x": 12,
             "y": 0
@@ -316,8 +316,8 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
-            "visible": false,
+            "value": 6,
+            "visible": true,
             "width": 0,
             "x": 366,
             "y": 0
@@ -1333,6 +1333,24 @@
             "width": 0,
             "x": 5,
             "y": 212
+        },
+        {
+            "height": 0,
+            "id": "z]de7]RonP?5MK~0;D4g",
+            "isDiscrete": true,
+            "mode": "default",
+            "opcode": "data_variable",
+            "params": {
+                "VARIABLE": "LocalFloorCloneData"
+            },
+            "sliderMax": 100,
+            "sliderMin": 0,
+            "spriteName": "GravFlipper",
+            "value": "0",
+            "visible": false,
+            "width": 0,
+            "x": 5,
+            "y": 5
         }
     ],
     "targets": [
@@ -1530,7 +1548,7 @@
                 "97|x(C2e/+O{abGSjIW9": [
                     "DeathData",
                     [
-                        ""
+                        "-78.-83.100.6"
                     ]
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
@@ -1553,8 +1571,7 @@
                 "n@J3cmZzr@Z_71#r8qfh": [
                     "climbData",
                     [
-                        "-210.0.100.3",
-                        "255.0.100.3"
+                        "-7.63.100.4"
                     ]
                 ]
             },
@@ -1583,7 +1600,7 @@
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
-                    "-142"
+                    -142
                 ],
                 "/]N5ma[TLCPBKLW]83)i": [
                     "BlocksY",
@@ -1607,7 +1624,7 @@
                 ],
                 "9G{ck`TfEnTI_,Os]k*%": [
                     "yFreezeWant",
-                    "0"
+                    0
                 ],
                 ":cP7H*N@F!!UzzPUd]$(": [
                     "Yfreeze",
@@ -1615,11 +1632,11 @@
                 ],
                 "?kg2eh#cPhe{|anpcFix": [
                     "Deaths",
-                    "0"
+                    6
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    "-210.0.100.3,255.0.100.3"
+                    "-7.63.100.4"
                 ],
                 "P=JtO4}B|Wc^aXJ|1zon": [
                     "BlocksHidden",
@@ -1631,7 +1648,7 @@
                 ],
                 "S6.8m33c%PwA9omGYyDL": [
                     "xLocation",
-                    "-200"
+                    130
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
@@ -1651,7 +1668,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    "0"
+                    6
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -1671,7 +1688,7 @@
                 ],
                 "h)%_BF-]!;?1[=/K=0Sl": [
                     "DEATH-ALL",
-                    ""
+                    "-78.-83.100.6"
                 ],
                 "jPo9_dtHj8_3(7ue`szU": [
                     "META-StartY",
@@ -5447,7 +5464,7 @@
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
-                    "1"
+                    "0"
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
@@ -5456,7 +5473,7 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": 130,
             "y": -142
         },
         {
@@ -8203,7 +8220,7 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ],
                 "khDX:D*O}L(wn[u#SF+%": [
                     "LocalFloorCloneData",
@@ -8455,6 +8472,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "./wWKAH![Z}X0SrU$K.s": {
+                    "fields": {},
+                    "inputs": {},
+                    "mutation": {
+                        "argumentdefaults": "[]",
+                        "argumentids": "[]",
+                        "argumentnames": "[]",
+                        "children": [],
+                        "proccode": "SpeedClimbClone",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": null,
+                    "opcode": "procedures_prototype",
+                    "parent": "j9luy5R!)7TV00iUXo~g",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 ".l+bo#O~L1;k/n/ukBj^": {
                     "fields": {
                         "LIST": [
@@ -8573,24 +8608,6 @@
                     "opcode": "operator_letter_of",
                     "parent": "SH4Lx/Z{U3|ahepv`=,)",
                     "shadow": false,
-                    "topLevel": false
-                },
-                "1Y_{%()@c:6Nl@3TKu@1": {
-                    "fields": {},
-                    "inputs": {},
-                    "mutation": {
-                        "argumentdefaults": "[]",
-                        "argumentids": "[]",
-                        "argumentnames": "[]",
-                        "children": [],
-                        "proccode": "SpeedCloneClimb",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_prototype",
-                    "parent": "Ug6FT%3GV9mIJ2g5=hgH",
-                    "shadow": true,
                     "topLevel": false
                 },
                 "1pS=_;wjd1)K|wD5SmuH": {
@@ -8791,7 +8808,23 @@
                     },
                     "next": "n1%9]rxrIL}F;zQVGTWQ",
                     "opcode": "control_wait_until",
-                    "parent": "NJj5:.`o/wH{U~hXj5UR",
+                    "parent": "?H93.co{[:oWg$g=~drd",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "9zRO/+AS{.~520Yv7qNH": {
+                    "fields": {},
+                    "inputs": {},
+                    "mutation": {
+                        "argumentids": "[]",
+                        "children": [],
+                        "proccode": "SpeedSpawnClones",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": "fzyXOE-tLT884Q;zBB~I",
+                    "opcode": "procedures_call",
+                    "parent": "BeC)iWGB2f=_VB|O6%8{",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -8812,9 +8845,25 @@
                 ";coK*/oy(R~x8dFn)Y`}": {
                     "fields": {},
                     "inputs": {},
-                    "next": "V46DOF-]@,%YM/h(2NrK",
+                    "next": "?H93.co{[:oWg$g=~drd",
                     "opcode": "looks_hide",
                     "parent": "ekDv)-]pk8:kaxWBFN~v",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "?H93.co{[:oWg$g=~drd": {
+                    "fields": {},
+                    "inputs": {},
+                    "mutation": {
+                        "argumentids": "[]",
+                        "children": [],
+                        "proccode": "SpeedClimbClone",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": "9C_Z1!`qkxSt%/5jk78]",
+                    "opcode": "procedures_call",
+                    "parent": ";coK*/oy(R~x8dFn)Y`}",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -8863,7 +8912,7 @@
                     "inputs": {
                         "SUBSTACK": [
                             2,
-                            "HHe:UUA`,wE~srOsffEP"
+                            "9zRO/+AS{.~520Yv7qNH"
                         ]
                     },
                     "next": null,
@@ -9034,7 +9083,7 @@
                     "inputs": {},
                     "next": "F.xfiwG:;~a9w{@5RjGl",
                     "opcode": "data_deletealloflist",
-                    "parent": "BeC)iWGB2f=_VB|O6%8{",
+                    "parent": "uWQBQ;An6#wVfSub}n?(",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9245,7 +9294,7 @@
                 "NJj5:.`o/wH{U~hXj5UR": {
                     "fields": {},
                     "inputs": {},
-                    "next": "9C_Z1!`qkxSt%/5jk78]",
+                    "next": null,
                     "opcode": "looks_show",
                     "parent": "Te6iE#(;_/rjazy}(T~M",
                     "shadow": false,
@@ -9488,22 +9537,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Ug6FT%3GV9mIJ2g5=hgH": {
-                    "fields": {},
-                    "inputs": {
-                        "custom_block": [
-                            1,
-                            "1Y_{%()@c:6Nl@3TKu@1"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "procedures_definition",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1190,
-                    "y": 1110
-                },
                 "Up2Ho.|3y`ul8B)w%=Aq": {
                     "fields": {},
                     "inputs": {
@@ -9558,7 +9591,7 @@
                     },
                     "next": ".x~A[o1E7)jp1fgnyNK0",
                     "opcode": "procedures_call",
-                    "parent": ";coK*/oy(R~x8dFn)Y`}",
+                    "parent": "j9luy5R!)7TV00iUXo~g",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9755,7 +9788,7 @@
                     },
                     "next": null,
                     "opcode": "control_wait_until",
-                    "parent": "vI/ko8#n|aU9c1xFs5r!",
+                    "parent": "9zRO/+AS{.~520Yv7qNH",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9843,6 +9876,40 @@
                     "opcode": "operator_letter_of",
                     "parent": "s6FO91gmq:tv^6o,6U)V",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "j9luy5R!)7TV00iUXo~g": {
+                    "fields": {},
+                    "inputs": {
+                        "custom_block": [
+                            1,
+                            "./wWKAH![Z}X0SrU$K.s"
+                        ]
+                    },
+                    "next": "V46DOF-]@,%YM/h(2NrK",
+                    "opcode": "procedures_definition",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -107,
+                    "y": 1103
+                },
+                "k:QsG^Ah]]EpHv~Mecqo": {
+                    "fields": {},
+                    "inputs": {},
+                    "mutation": {
+                        "argumentdefaults": "[]",
+                        "argumentids": "[]",
+                        "argumentnames": "[]",
+                        "children": [],
+                        "proccode": "SpeedSpawnClones",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": null,
+                    "opcode": "procedures_prototype",
+                    "parent": "uWQBQ;An6#wVfSub}n?(",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "l]ZiIiyQsXn=(;G3!+0:": {
@@ -10066,21 +10133,21 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "v6a8J5Ja}MqGXkph.ysj": {
-                    "fields": {
-                        "VALUE": [
-                            "ClimbAll",
-                            null
+                "uWQBQ;An6#wVfSub}n?(": {
+                    "fields": {},
+                    "inputs": {
+                        "custom_block": [
+                            1,
+                            "k:QsG^Ah]]EpHv~Mecqo"
                         ]
                     },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "argument_reporter_string_number",
+                    "next": "HHe:UUA`,wE~srOsffEP",
+                    "opcode": "procedures_definition",
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": -1124,
-                    "y": 491
+                    "x": -1304,
+                    "y": 1400
                 },
                 "vI/ko8#n|aU9c1xFs5r!": {
                     "fields": {
@@ -10098,7 +10165,7 @@
                             ]
                         ]
                     },
-                    "next": "fzyXOE-tLT884Q;zBB~I",
+                    "next": null,
                     "opcode": "data_setvariableto",
                     "parent": "qXz^fsM}+nO#Ua5=^QFy",
                     "shadow": false,
@@ -10351,11 +10418,11 @@
                 ],
                 "FM%G![pT/9`Zd%8.pv4f": [
                     "LocalClimbCloneData",
-                    "255.0.100.3"
+                    "-7.63.100.4"
                 ],
                 "R[!KFSO0[w|8O^1t1w:9": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ],
                 "S}Nl,IQV/Hd2KWfX0KC`": [
                     "floorTmp",
@@ -11177,7 +11244,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -202,
+            "x": 128,
             "y": -124
         },
         {
@@ -11955,7 +12022,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -175,
+            "x": 155,
             "y": -124
         },
         {
@@ -12758,7 +12825,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": 130,
             "y": -154
         },
         {
@@ -13597,7 +13664,7 @@
                     "rotationCenterY": 70.14560365676883
                 }
             ],
-            "currentCostume": 0,
+            "currentCostume": 4,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -13618,7 +13685,7 @@
                 }
             ],
             "variables": {},
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -36,
             "y": 37
@@ -15951,7 +16018,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -15959,7 +16026,7 @@
                 ],
                 "UqR7Ec/|z44ERz9aKR@F": [
                     "LocalDeathCloneData",
-                    ""
+                    "-78.-83.100.6"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -17247,7 +17314,7 @@
                     "rotationCenterY": 51.38663220088628
                 }
             ],
-            "currentCostume": 0,
+            "currentCostume": 1,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -17967,7 +18034,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -95,
             "y": 159
@@ -20040,7 +20107,7 @@
                 ],
                 "zbn2.;|434HSgjp+Y=qe": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ]
             },
             "visible": false,
@@ -20657,7 +20724,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": 130,
             "y": -130
         },
         {
@@ -22020,13 +22087,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                ":u*`Af,Z!+@whb*Vyld)": [
-                    12,
-                    "META-StartLoc",
-                    "]}%[`M=@eK3*yDJFb3P!",
-                    -1662,
-                    2615
-                ],
                 "=!uEzTb%+W09G|Lx.z%Y": {
                     "fields": {
                         "VARIABLE": [
@@ -22680,6 +22740,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "JT2%@lwv-5bC8|*CxNmA": [
+                    12,
+                    "META-StartLoc",
+                    "]}%[`M=@eK3*yDJFb3P!",
+                    -1662,
+                    2615
+                ],
                 "K%rX40]BJ3YfIkshT9E9": {
                     "fields": {},
                     "inputs": {
@@ -25457,7 +25524,7 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -26319,9 +26386,8 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "|Oar.ot+!,[,-/jYsGc+",
-                            null
+                            2,
+                            "|Oar.ot+!,[,-/jYsGc+"
                         ]
                     },
                     "next": "`7Zje:a5GxoH(g(Vb`PP",
@@ -26349,6 +26415,35 @@
                     "next": null,
                     "opcode": "data_itemoflist",
                     "parent": "%kEG8DPqW,HEh@PwRuYy",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "#BBP8(K}j=lV:]2tSBuL": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "LocalFloorCloneData",
+                                "z]de7]RonP?5MK~0;D4g"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "w%$RiywV%lM`DR$e^.WB",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -26541,14 +26636,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "%kEG8DPqW,HEh@PwRuYy",
-                            null
+                            2,
+                            "%kEG8DPqW,HEh@PwRuYy"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "`z*E3hEicUCt%`.t8Hg^",
-                            null
+                            2,
+                            "`z*E3hEicUCt%`.t8Hg^"
                         ]
                     },
                     "next": "5Ae)Sd7|N+5dHN{Qt)co",
@@ -26611,9 +26704,8 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "89YRJkRdHMuH4Icqc/[i",
-                            null
+                            2,
+                            "89YRJkRdHMuH4Icqc/[i"
                         ]
                     },
                     "next": null,
@@ -26667,14 +26759,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "O~]SE:{:HoC#x)YEDF|~",
-                            null
+                            2,
+                            "O~]SE:{:HoC#x)YEDF|~"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "_cHp{vMCtP7T-d9Ie{dI",
-                            null
+                            2,
+                            "_cHp{vMCtP7T-d9Ie{dI"
                         ]
                     },
                     "next": ":.Cn[~^Sj,8R=Zm3+3lK",
@@ -26743,7 +26833,7 @@
                     },
                     "next": ",rZi6tWOj!CwmgRCl|?/",
                     "opcode": "procedures_call",
-                    "parent": "q.IMUu~5a}GrNSWWul^E",
+                    "parent": "gIysg.NV`}dND[a~`9YZ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -26778,9 +26868,8 @@
                     "fields": {},
                     "inputs": {
                         "OPERAND": [
-                            3,
-                            "s~I[NiKth)[pI+GD{_Y.",
-                            null
+                            2,
+                            "s~I[NiKth)[pI+GD{_Y."
                         ]
                     },
                     "next": null,
@@ -26847,14 +26936,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "xzqK?#XKnoc9?d:4%@ft",
-                            null
+                            2,
+                            "xzqK?#XKnoc9?d:4%@ft"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "Z;Coorj+B:7#_XYcnN+;",
-                            null
+                            2,
+                            "Z;Coorj+B:7#_XYcnN+;"
                         ]
                     },
                     "next": "P,NwbG|gz_je.D7=(IXr",
@@ -26920,6 +27007,28 @@
                     "next": null,
                     "opcode": "operator_gt",
                     "parent": "za-P_mxv~`z3GVZf6x|G",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "?s[BP3*E(EjFnjh4E{@A": {
+                    "fields": {
+                        "VARIABLE": [
+                            "LocalFloorCloneData",
+                            "z]de7]RonP?5MK~0;D4g"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": "[cnTc@?[O5E:q(#q4N[b",
+                    "opcode": "data_setvariableto",
+                    "parent": "Hc2;?aIq!*hLK3]9:4.k",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -27050,7 +27159,7 @@
                     "inputs": {},
                     "next": null,
                     "opcode": "control_delete_this_clone",
-                    "parent": "nGSN2jKk0s{7`uC:f|+%",
+                    "parent": "gIysg.NV`}dND[a~`9YZ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -27120,9 +27229,8 @@
                     "fields": {},
                     "inputs": {
                         "OPERAND": [
-                            3,
-                            "*wd!duCq8IA4=2CvzW(9",
-                            null
+                            2,
+                            "*wd!duCq8IA4=2CvzW(9"
                         ]
                     },
                     "next": null,
@@ -27178,7 +27286,7 @@
                 "Hc2;?aIq!*hLK3]9:4.k": {
                     "fields": {},
                     "inputs": {},
-                    "next": null,
+                    "next": "?s[BP3*E(EjFnjh4E{@A",
                     "opcode": "event_whenflagclicked",
                     "parent": null,
                     "shadow": false,
@@ -27443,14 +27551,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "o:qNJ;,kUE`WxER6z|-*",
-                            null
+                            2,
+                            "o:qNJ;,kUE`WxER6z|-*"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "yY..tpnLQ8hb:]r4}X0s",
-                            null
+                            2,
+                            "yY..tpnLQ8hb:]r4}X0s"
                         ]
                     },
                     "next": "Um~n.v#kluKqEzR|e}CM",
@@ -27463,9 +27569,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "vImO`4EZIYx~SN`Z45?5",
-                            null
+                            2,
+                            "vImO`4EZIYx~SN`Z45?5"
                         ]
                     },
                     "next": null,
@@ -27576,19 +27681,16 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "b*WQ9tB=nM-C@cGXB74o",
-                            null
+                            2,
+                            "b*WQ9tB=nM-C@cGXB74o"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "K%(l,=ZldpI/[R4.nxLV",
-                            null
+                            2,
+                            "K%(l,=ZldpI/[R4.nxLV"
                         ],
                         "SUBSTACK2": [
-                            3,
-                            "v+)5:9.rzq^umIPEG+oC",
-                            null
+                            2,
+                            "v+)5:9.rzq^umIPEG+oC"
                         ]
                     },
                     "next": "yl_bpm{n:4Y5I{@HJn=D",
@@ -27680,11 +27782,9 @@
                     "inputs": {},
                     "next": "Rlp:1=@amY/(M)fseE|v",
                     "opcode": "looks_hide",
-                    "parent": null,
+                    "parent": "?s[BP3*E(EjFnjh4E{@A",
                     "shadow": false,
-                    "topLevel": true,
-                    "x": 667,
-                    "y": -358
+                    "topLevel": false
                 },
                 "[~U6ECeOngcnFj6Iw6+Z": {
                     "fields": {
@@ -27760,14 +27860,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "+9|UCvHB3U.bQzaFc`8V",
-                            null
+                            2,
+                            "+9|UCvHB3U.bQzaFc`8V"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "Y3gv#a^a;z;S93kQiJ}s",
-                            null
+                            2,
+                            "Y3gv#a^a;z;S93kQiJ}s"
                         ]
                     },
                     "next": "Y{Df})aQjWW]At,UxcU7",
@@ -27858,6 +27956,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "gIysg.NV`}dND[a~`9YZ": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "w%$RiywV%lM`DR$e^.WB"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "7M:-{DcGl!CF1m0z[Gdd"
+                        ]
+                    },
+                    "next": "Cp1#P;@lgS`?0l4pGU.s",
+                    "opcode": "control_if",
+                    "parent": "q.IMUu~5a}GrNSWWul^E",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "g_}/AVJA+dblpw?if6=.": {
                     "fields": {
                         "VARIABLE": [
@@ -27909,12 +28025,11 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "E)i6Lawe)*/_?IugSos%",
-                            null
+                            2,
+                            "E)i6Lawe)*/_?IugSos%"
                         ]
                     },
-                    "next": "Cp1#P;@lgS`?0l4pGU.s",
+                    "next": null,
                     "opcode": "control_wait_until",
                     "parent": "qroTmg`%rRtn/D=QJ~E~",
                     "shadow": false,
@@ -27997,7 +28112,7 @@
                 "q.IMUu~5a}GrNSWWul^E": {
                     "fields": {},
                     "inputs": {},
-                    "next": "7M:-{DcGl!CF1m0z[Gdd",
+                    "next": "gIysg.NV`}dND[a~`9YZ",
                     "opcode": "looks_hide",
                     "parent": "m!A:_cxL#cHE)EiNd.ac",
                     "shadow": false,
@@ -28088,19 +28203,16 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "%B2TthYceOvwuc)s^NN:",
-                            null
+                            2,
+                            "%B2TthYceOvwuc)s^NN:"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "D3756sN!@!X{672C/k#i",
-                            null
+                            2,
+                            "D3756sN!@!X{672C/k#i"
                         ],
                         "SUBSTACK2": [
-                            3,
-                            "YVn]X}@;:B+C/@h?+9k~",
-                            null
+                            2,
+                            "YVn]X}@;:B+C/@h?+9k~"
                         ]
                     },
                     "next": "7J`hNw#vh2V`YJIqjNhY",
@@ -28173,6 +28285,20 @@
                     "next": "0?jnnXxxL2AR~*~ycvqc",
                     "opcode": "data_deletealloflist",
                     "parent": "Rlp:1=@amY/(M)fseE|v",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "w%$RiywV%lM`DR$e^.WB": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "#BBP8(K}j=lV:]2tSBuL"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "gIysg.NV`}dND[a~`9YZ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -28288,14 +28414,12 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "?j|OSgkIJ)0^zwPCF9!f",
-                            null
+                            2,
+                            "?j|OSgkIJ)0^zwPCF9!f"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "u-MnwnW/H4206h%zh3OP",
-                            null
+                            2,
+                            "u-MnwnW/H4206h%zh3OP"
                         ]
                     },
                     "next": "8![GP3O4[^,V:UapAj!A",
@@ -28413,7 +28537,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    "0"
+                    6
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
