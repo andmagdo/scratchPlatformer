@@ -146,7 +146,7 @@
         },
         {
             "height": 0,
-            "id": "d5^~,sOQbvbKM}YH}NRV_yposition",
+            "id": "an_sI^orRX(H5u2DG#zR_yposition",
             "isDiscrete": true,
             "mode": "default",
             "opcode": "motion_yposition",
@@ -190,7 +190,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 7,
+            "value": 1,
             "visible": true,
             "width": 0,
             "x": 5,
@@ -1571,7 +1571,7 @@
                         "186.-128",
                         "100",
                         "100",
-                        "1"
+                        "0"
                     ]
                 ],
                 "$Vn7S_zKtnXzpQ(LHTS]": [
@@ -1585,7 +1585,7 @@
                 "97|x(C2e/+O{abGSjIW9": [
                     "DeathData",
                     [
-                        "-78.-83.100.6"
+                        "-78.-83.100.1"
                     ]
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
@@ -1598,8 +1598,7 @@
                 "B^fv_s|%j)%[[f~glF@V": [
                     "FloorData",
                     [
-                        "-25.10.100.1",
-                        "-25.360.100.1"
+                        "-25.10.100.3"
                     ]
                 ],
                 "P%14HUI:|X%tps*$ceJ,": [
@@ -1609,7 +1608,8 @@
                 "n@J3cmZzr@Z_71#r8qfh": [
                     "climbData",
                     [
-                        "-7.63.100.4"
+                        "-210.0.100.3",
+                        "255.0.100.3"
                     ]
                 ]
             },
@@ -1638,7 +1638,7 @@
                 ],
                 ")5ld.YQv3)`srp]-17Sz": [
                     "META-JumpFlip",
-                    "1"
+                    "0"
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
@@ -1678,7 +1678,7 @@
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    "-7.63.100.4"
+                    "-210.0.100.3,255.0.100.3"
                 ],
                 "P=JtO4}B|Wc^aXJ|1zon": [
                     "BlocksHidden",
@@ -1690,7 +1690,7 @@
                 ],
                 "S6.8m33c%PwA9omGYyDL": [
                     "xLocation",
-                    "-200"
+                    -160
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
@@ -1698,7 +1698,7 @@
                 ],
                 "Y2j)b2k(By8IMw,i|PRk": [
                     "META-ALL",
-                    "2,100,100,-200.-142,186.-128,100,100,1"
+                    "2,100,100,-200.-142,186.-128,100,100,0"
                 ],
                 "]Gf!_)td/M:(O(eOC*~i": [
                     "lvlTmp",
@@ -1710,7 +1710,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    7
+                    1
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -1718,19 +1718,19 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    "-25.10.100.1,-25.360.100.1"
+                    "-25.10.100.3"
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
-                    "6"
+                    "7"
                 ],
                 "fHy3L:`-0(qf)A]02#JL": [
                     "BottomFreezeWant",
-                    "1"
+                    "0"
                 ],
                 "h)%_BF-]!;?1[=/K=0Sl": [
                     "DEATH-ALL",
-                    "-78.-83.100.6"
+                    "-78.-83.100.1"
                 ],
                 "jPo9_dtHj8_3(7ue`szU": [
                     "META-StartY",
@@ -1742,7 +1742,7 @@
                 ],
                 "ll{r!`@uqT|Qzxn%fgW9": [
                     "TmpFallSpeed",
-                    100
+                    "100"
                 ],
                 "mu9K{V^`0jw.RX*$wq}~": [
                     "climbtmp",
@@ -1778,7 +1778,7 @@
                 ],
                 "w4,7AeTLY6}!tgR~g*wB": [
                     "META-Fallspeed",
-                    100
+                    "100"
                 ],
                 "}^P7!m}Ub1{=1CQg*8.B": [
                     "FLIP-ALL",
@@ -1795,12 +1795,58 @@
         },
         {
             "blocks": {
+                "!]Ai+g28dYZ67/6b:I[`": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "s",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "!otSOX:l[?(Ux%v9l^+j",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "!otSOX:l[?(Ux%v9l^+j": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "!]Ai+g28dYZ67/6b:I[`"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "u7Ss.I*aBJkg+NUo6mjF",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "#R39+WOHMUr[+-vd[%OH": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "I.7`_XMy+$4!rD~D|qta"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "KP06`d-u_DN+XaUhkj`]"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "Ktb.#,(J?C^by_z3Sy#w",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "#SJs3=z(:Gj0aH1!bA*Y": {
                     "fields": {},
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            "i+TvlxnHQ/@IlPnOcqk-"
+                            "I?6q;wuuVH_mL|OS(BBC"
                         ],
                         "OPERAND2": [
                             2,
@@ -1810,6 +1856,20 @@
                     "next": null,
                     "opcode": "operator_or",
                     "parent": "6dcS/?2l6^Uo)5]Kj,;p",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "$3=Ie/kq!uLNRc2|Omn:": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "m2KdnyHJM/!-HmJCu#L!"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "%87m`gltC-|WpNyke%T`",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -1857,6 +1917,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "$owA?r](SN9@!$N:1F:m": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "yTGS^zslV-2iXo~0Q:27"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "E1K/~N!+e9QwBEK^h|[N",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "%-=9!YQS+oL4oo!@xKD8": {
                     "fields": {},
                     "inputs": {
@@ -1872,6 +1946,24 @@
                     "next": "wC*q/Ayq[g;T]EFpV3Hq",
                     "opcode": "control_if",
                     "parent": "MOy}fB|bnK*Z$|i[[2[3",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "%87m`gltC-|WpNyke%T`": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "E1K/~N!+e9QwBEK^h|[N"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "$3=Ie/kq!uLNRc2|Omn:"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "MFjt2p5h_iAr{W7qNd{*",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -1902,12 +1994,26 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "bb,!zuZ66c0zrn^.Qb}_"
+                            "MFjt2p5h_iAr{W7qNd{*"
                         ]
                     },
                     "next": null,
                     "opcode": "control_wait_until",
                     "parent": "}!+vuM0sGU.Z8tTO|/S=",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "(R%R+K^jH79OL-G0[/2N": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "r!m~R0Qieph})gu+4b4L"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "m2IvV[F/|EhG.{W,Qkl[",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -1943,7 +2049,7 @@
                     },
                     "next": null,
                     "opcode": "operator_or",
-                    "parent": "b#qJj2MSoYg`.|3;+-jh",
+                    "parent": "`AWQK}Ioc3Sv?wYUFwoJ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -1972,6 +2078,20 @@
                     "next": "6Zlj1:o~.]568N=3x0.q",
                     "opcode": "control_wait_until",
                     "parent": ";8lN[}P,G#7A:OuiqgUu",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ")(A?BzE7FGCJz$,eKe_W": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "lkip5?}oXr`WNW0]/C{d"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "pThW?^##F|S)QF3j`BvK",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2009,12 +2129,12 @@
                     "inputs": {
                         "OPERAND": [
                             2,
-                            "BZ~1,5^9g^j8:%WwT`k_"
+                            "Ktb.#,(J?C^by_z3Sy#w"
                         ]
                     },
                     "next": null,
                     "opcode": "operator_not",
-                    "parent": "JloJ2~({Ip+n[nziMjdT",
+                    "parent": ":}X._VmR}H$KMDrPGF_f",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2044,20 +2164,6 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "}zrsT1JlT{=+y/$S1q11",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                ")p7/5xHRW8Fn2K^xt3Kw": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            ".fqW_[!lPQXPBe#Z:,jO"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "@jS/MG0GM-1TFv.r.Q*%",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2093,20 +2199,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "*+yp,=^~QGDKkKmd;$WX": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "m#$LX{Gw)+DSC}kdeEZN"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "9/Bp+|;J]JJm#/UKGWS5",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "*0|K0!*Xya(jvi)RX2WF": {
                     "fields": {
                         "COSTUME": [
@@ -2119,6 +2211,24 @@
                     "opcode": "looks_costume",
                     "parent": "C2X!aivkY#`o%0BTb},Q",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "*1_v1pBNC6B(@^x[WjMN": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "~)uph,:`}-RX[fUM+,l]"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "]bYA8xELx^J83n#RHRAH"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "OTOC[zY-U8@2SxzhF.YJ",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "*J^^_Mco:I1j=!.usU[0": {
@@ -2147,6 +2257,20 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "qDs@K^%4BSojieo[t/iH",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "*Joy6^[kA_`4C%W=~HlZ": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "jVr`4u]jHGNtN0?uLlxS"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "`AWQK}Ioc3Sv?wYUFwoJ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2389,6 +2513,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ".3J8gkp;`}D46::HFppN": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "up arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "FSHM(bk|HZLW|BWA70:|",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 ".=NUr^9I~dNEk0+R_cCr": {
                     "fields": {},
                     "inputs": {
@@ -2400,6 +2538,34 @@
                     "next": null,
                     "opcode": "operator_not",
                     "parent": ";axvt9}uD?y#qDh(%o9j",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ".C}eHZZ}~QCP/{:]M91k": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "down arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "jDcnc4r69syR%)Q(!@zM",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                ".Rj|Ya%XVk{*26*mvE]|": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "V0[2Jo{k63kpRR^-cBZ2"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "I?6q;wuuVH_mL|OS(BBC",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2457,20 +2623,6 @@
                     "opcode": "operator_equals",
                     "parent": "H~4P]s+i?uCTm*AZbId=",
                     "shadow": false,
-                    "topLevel": false
-                },
-                ".fqW_[!lPQXPBe#Z:,jO": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "space",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": ")p7/5xHRW8Fn2K^xt3Kw",
-                    "shadow": true,
                     "topLevel": false
                 },
                 "/D=!kiQNGx`{kd5qGb(Z": {
@@ -2578,7 +2730,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "m?m(/3zrQbUYA8C,12l+"
+                            "D0B1P/I,k9UI2f=;X#t]"
                         ]
                     },
                     "next": null,
@@ -2808,20 +2960,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "3*sRHI!Z+6q=t=CIWJj%": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "^qnOvMu?JADD+xJtk]jr"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "e)K:~aK[vX]9d4C{89rG",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "3BUB2Zzx|Z7seqU]+O)E": {
                     "fields": {},
                     "inputs": {},
@@ -2901,7 +3039,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "=2:A87?wemYAyb5HLQSV"
+                            "9/Bp+|;J]JJm#/UKGWS5"
                         ]
                     },
                     "next": null,
@@ -2932,21 +3070,17 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "5=93P#-TOqQO;H+[624u": {
+                "54sP:L{^{2IwXr9kIa.D": {
                     "fields": {},
                     "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "a9s:p@sXw:J^zIya`Z)d"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "s@-0KqH1XfI=rj_H5jt["
+                        "KEY_OPTION": [
+                            1,
+                            "}QoyCte9O-1*$O#QbVmX"
                         ]
                     },
                     "next": null,
-                    "opcode": "operator_or",
-                    "parent": "C0hmOIagr?F@~jI=9p4Y",
+                    "opcode": "sensing_keypressed",
+                    "parent": "Ktb.#,(J?C^by_z3Sy#w",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3149,31 +3283,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "9#uOZLaQ8hi~F0+Jz8iu": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "s",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "stoQXj9:T~DH{ZzEWU_[",
-                    "shadow": true,
-                    "topLevel": false
-                },
                 "9/Bp+|;J]JJm#/UKGWS5": {
                     "fields": {},
                     "inputs": {
                         "OPERAND": [
                             2,
-                            "*+yp,=^~QGDKkKmd;$WX"
+                            "WpXuY22aRS/sc()_x`It"
                         ]
                     },
                     "next": null,
                     "opcode": "operator_not",
-                    "parent": "=2:A87?wemYAyb5HLQSV",
+                    "parent": "4)7@HET0|C^XS67$sbFe",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "99`,pwyK?~yrTB-tU=fu": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "pThW?^##F|S)QF3j`BvK"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            ":gCzOju[9p{qn4!Ps[Up"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "J.SN5EE)RIg%#xU4BXzo",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3188,6 +3326,20 @@
                     "next": null,
                     "opcode": "control_forever",
                     "parent": "{e{NMZRYJ8qlVYT.uTzM",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "9hf-c:JU+y~kr,~Kyo!+": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            ":r=wkDz,kcJ|?gd[R/~Z"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "OTOC[zY-U8@2SxzhF.YJ",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3242,12 +3394,40 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ":gCzOju[9p{qn4!Ps[Up": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "vLR9h[wcj-M4x{d0wtqi"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "99`,pwyK?~yrTB-tU=fu",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ":r=wkDz,kcJ|?gd[R/~Z": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "up arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "9hf-c:JU+y~kr,~Kyo!+",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 ":}X._VmR}H$KMDrPGF_f": {
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "JloJ2~({Ip+n[nziMjdT"
+                            ")Z.}s^!,geAWbw;a3H.W"
                         ]
                     },
                     "next": null,
@@ -3332,6 +3512,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ";K5,*16/hS4d/K.Sq~iq": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "X]~1[lmTt=Q1y|i:}uF1"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "c6N;mnmr!9kfwxzK0HnH"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "~5K#$Q8DdZ{(LyFbJ)uB",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 ";axvt9}uD?y#qDh(%o9j": {
                     "fields": {},
                     "inputs": {
@@ -3379,24 +3577,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "=2:A87?wemYAyb5HLQSV": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "9/Bp+|;J]JJm#/UKGWS5"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "CK7/**C__.?-_b+)@kRa"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_and",
-                    "parent": "4)7@HET0|C^XS67$sbFe",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "=;]rIA7{E=;eZ1dXnh(-": {
                     "fields": {},
                     "inputs": {
@@ -3424,6 +3604,20 @@
                     "opcode": "operator_equals",
                     "parent": "e8q8B!-;OxKfuLYcHyL+",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "=W$yO8~gIR6!R}e*$w|H": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "w",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "]bYA8xELx^J83n#RHRAH",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "=pi-hK2b20(5Q;7Nz@`M": {
@@ -3599,22 +3793,18 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "@jS/MG0GM-1TFv.r.Q*%": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            ")p7/5xHRW8Fn2K^xt3Kw"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "^r4P;i:@V3X1x1*NL^gh"
+                "@58DRQSdkOX^TyC$1P+|": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "operator_or",
-                    "parent": "J.SN5EE)RIg%#xU4BXzo",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "{($ApDpp(_.l%t-lGm!}",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "@q3ebWXO;X9nEq5(1rQ+": {
@@ -3627,33 +3817,11 @@
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "D0B1P/I,k9UI2f=;X#t]",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
-                },
-                "@}m-#GTm*%g@2?wzR8^I": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            1,
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "50"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "A{:.EO1[;%_XJS124Z2o",
-                    "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": -1492,
+                    "y": 4158
                 },
                 "A#/;I.R/.ECLBsT086^a": {
                     "fields": {},
@@ -3723,22 +3891,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "A{:.EO1[;%_XJS124Z2o": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "@}m-#GTm*%g@2?wzR8^I"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_not",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -20,
-                    "y": 1535
-                },
                 "B@8r*uaX$!`!|}t})5^@": {
                     "fields": {
                         "VARIABLE": [
@@ -3758,20 +3910,6 @@
                     "next": "p!a7(5P`/GteY2MX*%/]",
                     "opcode": "data_changevariableby",
                     "parent": "Gs]AJhE^oh!uH1E@kn`]",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "BZ~1,5^9g^j8:%WwT`k_": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "yjaYoVq(_%t/^wz8iT%P"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": ")Z.}s^!,geAWbw;a3H.W",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3838,7 +3976,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "5=93P#-TOqQO;H+[624u"
+                            "ln%b*?^Y)B$D3m=R6+s,"
                         ],
                         "SUBSTACK": [
                             2,
@@ -3887,20 +4025,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "CK7/**C__.?-_b+)@kRa": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "z03`VUYBo]G~ll5D]@*s"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_not",
-                    "parent": "=2:A87?wemYAyb5HLQSV",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "CnKg3tKS%]Uj*e@I7bgY": {
                     "fields": {},
                     "inputs": {
@@ -3923,20 +4047,20 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": -1774,
-                    "y": 1222
+                    "x": -1824,
+                    "y": 1066
                 },
                 "D0B1P/I,k9UI2f=;X#t]": {
                     "fields": {},
                     "inputs": {
                         "OPERAND": [
                             2,
-                            "@q3ebWXO;X9nEq5(1rQ+"
+                            "OTOC[zY-U8@2SxzhF.YJ"
                         ]
                     },
                     "next": null,
                     "opcode": "operator_not",
-                    "parent": "m?m(/3zrQbUYA8C,12l+",
+                    "parent": "1L7d5A*a/p[`i=0?EzrR",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4035,6 +4159,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "E1K/~N!+e9QwBEK^h|[N": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "$owA?r](SN9@!$N:1F:m"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "dEWL8;T%K]T#?wdH{2T`"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "%87m`gltC-|WpNyke%T`",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "EHwZdvhn;gAxZC!mM$]s": {
                     "fields": {},
                     "inputs": {
@@ -4113,6 +4255,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "FSHM(bk|HZLW|BWA70:|": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            ".3J8gkp;`}D46::HFppN"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "ln%b*?^Y)B$D3m=R6+s,",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "G)[jujfKw%/.C}W)kIWW": {
                     "fields": {},
                     "inputs": {
@@ -4168,20 +4324,6 @@
                     "next": "|//cFZKUaR9f#RHE$MkL",
                     "opcode": "control_if_else",
                     "parent": "kG:.8U5}PRVE?#FJn+fs",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "GE)w}+;+]cKvCMWsUvgs": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "lK3YWyP`(uth.ki}Xxy9"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_not",
-                    "parent": "bb,!zuZ66c0zrn^.Qb}_",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4283,20 +4425,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Hj|,n?zBuE+B6!$5_E*}": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "s",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "z03`VUYBo]G~ll5D]@*s",
-                    "shadow": true,
-                    "topLevel": false
-                },
                 "H~4P]s+i?uCTm*AZbId=": {
                     "fields": {},
                     "inputs": {
@@ -4311,12 +4439,44 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "I.7`_XMy+$4!rD~D|qta": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "~[!LpYvv18t)3~AYMt}2"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "#R39+WOHMUr[+-vd[%OH",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "I?6q;wuuVH_mL|OS(BBC": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "i+TvlxnHQ/@IlPnOcqk-"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            ".Rj|Ya%XVk{*26*mvE]|"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "#SJs3=z(:Gj0aH1!bA*Y",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "J.SN5EE)RIg%#xU4BXzo": {
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "@jS/MG0GM-1TFv.r.Q*%"
+                            "99`,pwyK?~yrTB-tU=fu"
                         ],
                         "SUBSTACK": [
                             2,
@@ -4350,6 +4510,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "JLAwfllhIgeO,=~WEZWV": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "~)uph,:`}-RX[fUM+,l]",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "JX}Qc?Ob:6RpOX@.BLCg": {
                     "fields": {},
                     "inputs": {
@@ -4361,24 +4535,6 @@
                     "next": null,
                     "opcode": "operator_not",
                     "parent": "n0j*6QJ1ZZMv^=N#z=Zf",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "JloJ2~({Ip+n[nziMjdT": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            ")Z.}s^!,geAWbw;a3H.W"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "Q)YCluc2xs2TMnQ3oJtJ"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_and",
-                    "parent": ":}X._VmR}H$KMDrPGF_f",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4434,6 +4590,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "KP06`d-u_DN+XaUhkj`]": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "{825:o?TYeHcSya;M_``"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "#R39+WOHMUr[+-vd[%OH",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "KqYCqA_~bng7g6%ew;cr": {
                     "fields": {},
                     "inputs": {
@@ -4463,6 +4633,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "Ktb.#,(J?C^by_z3Sy#w": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "#R39+WOHMUr[+-vd[%OH"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "54sP:L{^{2IwXr9kIa.D"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": ")Z.}s^!,geAWbw;a3H.W",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "LuZBN3%*^kRMUmFa;9p9": {
                     "fields": {},
                     "inputs": {
@@ -4489,6 +4677,20 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "?4=}FDn~gL/It5{NeNhA",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "MFjt2p5h_iAr{W7qNd{*": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "%87m`gltC-|WpNyke%T`"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "(%OV-rCk%O^gJ`WL7(87",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4585,6 +4787,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "O,ro@ESQGIe]rV.~!s1Q": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "rXdQ~(lS.5nn80krls;V"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "X]~1[lmTt=Q1y|i:}uF1",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "O4pel|jJuK+ps+UZ1?@J": {
                     "fields": {},
                     "inputs": {
@@ -4654,6 +4870,24 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "SN*$#ySWz^fk*(KrvN9j",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "OTOC[zY-U8@2SxzhF.YJ": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "*1_v1pBNC6B(@^x[WjMN"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "9hf-c:JU+y~kr,~Kyo!+"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "D0B1P/I,k9UI2f=;X#t]",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4734,20 +4968,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Q)YCluc2xs2TMnQ3oJtJ": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "~k+?PD`h$:4f!;!^T{!h"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_not",
-                    "parent": "JloJ2~({Ip+n[nziMjdT",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "Q-1=yc#poAAht%9]?aZe": {
                     "fields": {
                         "COSTUME": [
@@ -4776,7 +4996,7 @@
                     },
                     "next": null,
                     "opcode": "operator_or",
-                    "parent": "}!+vuM0sGU.Z8tTO|/S=",
+                    "parent": "_AjBF8rO=.agE~lXU0aR",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5033,6 +5253,20 @@
                     "x": -380,
                     "y": 180
                 },
+                "V0[2Jo{k63kpRR^-cBZ2": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "up arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": ".Rj|Ya%XVk{*26*mvE]|",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "VgFoW-nQrz7no:sXfiMx": {
                     "fields": {},
                     "inputs": {
@@ -5103,17 +5337,17 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "WgV#RJ!A,?.mx$C:MYq8": {
+                "WFLT*gL:qZJ~R4873u-q": {
                     "fields": {},
                     "inputs": {
                         "KEY_OPTION": [
                             1,
-                            "WpIcCp{8xp3#j7)NO3(6"
+                            "gm0)$Mc:;xK8K23*oQ+{"
                         ]
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "esV@aM#3~iz[.ae$G{f.",
+                    "parent": "_AjBF8rO=.agE~lXU0aR",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5157,18 +5391,40 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "WpIcCp{8xp3#j7)NO3(6": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "space",
-                            null
+                "WpXuY22aRS/sc()_x`It": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "u7Ss.I*aBJkg+NUo6mjF"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "jDcnc4r69syR%)Q(!@zM"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "WgV#RJ!A,?.mx$C:MYq8",
-                    "shadow": true,
+                    "opcode": "operator_or",
+                    "parent": "9/Bp+|;J]JJm#/UKGWS5",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "X]~1[lmTt=Q1y|i:}uF1": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "}dUKB_:g1Ll(lW9Ujf~!"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "O,ro@ESQGIe]rV.~!s1Q"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": ";K5,*16/hS4d/K.Sq~iq",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "X_MWsjcNkoChF|^;{:+c": {
@@ -5213,7 +5469,7 @@
                             1,
                             [
                                 4,
-                                "0.7"
+                                "1.2"
                             ]
                         ]
                     },
@@ -5305,31 +5561,17 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "^qnOvMu?JADD+xJtk]jr": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "w",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "3*sRHI!Z+6q=t=CIWJj%",
-                    "shadow": true,
-                    "topLevel": false
-                },
-                "^r4P;i:@V3X1x1*NL^gh": {
+                "]bYA8xELx^J83n#RHRAH": {
                     "fields": {},
                     "inputs": {
                         "KEY_OPTION": [
                             1,
-                            "t9[f)c]}[*~#5#W|L]`J"
+                            "=W$yO8~gIR6!R}e*$w|H"
                         ]
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "@jS/MG0GM-1TFv.r.Q*%",
+                    "parent": "*1_v1pBNC6B(@^x[WjMN",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5370,6 +5612,24 @@
                     "next": null,
                     "opcode": "control_if",
                     "parent": "EhWESUx22/0@0l@5+DLC",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "_AjBF8rO=.agE~lXU0aR": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "Q:ha~3_Qk=4rgCnJ^3am"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "WFLT*gL:qZJ~R4873u-q"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "}!+vuM0sGU.Z8tTO|/S=",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5451,20 +5711,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "_yN*xiyGusUPgn}^s~Ul": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "space",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "a9s:p@sXw:J^zIya`Z)d",
-                    "shadow": true,
-                    "topLevel": false
-                },
                 "`1fN1AD@Sf+PO*s[eC;?": {
                     "fields": {},
                     "inputs": {
@@ -5476,24 +5722,6 @@
                     "next": "oBTf$3v+L#)g[vK_v:?6",
                     "opcode": "control_wait_until",
                     "parent": "_5F+Yj$c-p`]HHnbJ)_G",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "`6Gkx_x1Qv@:f]gCM4c.": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "ba}XGI]@=r;#RS=/AZfl"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "stoQXj9:T~DH{ZzEWU_["
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_or",
-                    "parent": "~5K#$Q8DdZ{(LyFbJ)uB",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5534,17 +5762,21 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "a9s:p@sXw:J^zIya`Z)d": {
+                "`AWQK}Ioc3Sv?wYUFwoJ": {
                     "fields": {},
                     "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "_yN*xiyGusUPgn}^s~Ul"
+                        "OPERAND1": [
+                            2,
+                            "(ZoGsMIY3#t6T,]o,Wd$"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "*Joy6^[kA_`4C%W=~HlZ"
                         ]
                     },
                     "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "5=93P#-TOqQO;H+[624u",
+                    "opcode": "operator_or",
+                    "parent": "b#qJj2MSoYg`.|3;+-jh",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5582,7 +5814,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "(ZoGsMIY3#t6T,]o,Wd$"
+                            "`AWQK}Ioc3Sv?wYUFwoJ"
                         ],
                         "SUBSTACK": [
                             2,
@@ -5617,35 +5849,31 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "ba}XGI]@=r;#RS=/AZfl": {
+                "c6N;mnmr!9kfwxzK0HnH": {
                     "fields": {},
                     "inputs": {
                         "KEY_OPTION": [
                             1,
-                            "vJ+QFY1%T.U[1KgIqKb?"
+                            "j3?w}}NAmyK{%oN--WS."
                         ]
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "`6Gkx_x1Qv@:f]gCM4c.",
+                    "parent": ";K5,*16/hS4d/K.Sq~iq",
                     "shadow": false,
                     "topLevel": false
                 },
-                "bb,!zuZ66c0zrn^.Qb}_": {
+                "cD;94A)bjdxY|`3o-|lU": {
                     "fields": {},
                     "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "esV@aM#3~iz[.ae$G{f."
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "GE)w}+;+]cKvCMWsUvgs"
+                        "KEY_OPTION": [
+                            1,
+                            "qvV`fJ,Y3qtp|k)Ewnkx"
                         ]
                     },
                     "next": null,
-                    "opcode": "operator_and",
-                    "parent": "(%OV-rCk%O^gJ`WL7(87",
+                    "opcode": "sensing_keypressed",
+                    "parent": "pThW?^##F|S)QF3j`BvK",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5724,6 +5952,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "dEWL8;T%K]T#?wdH{2T`": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "mVFSXB}`0?n=N7%Gi^,6"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "E1K/~N!+e9QwBEK^h|[N",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "dUjT@5EGav4Jbf80v:-L": {
                     "fields": {},
                     "inputs": {
@@ -5757,20 +5999,6 @@
                     "next": null,
                     "opcode": "control_if",
                     "parent": "mb![![_lnmqeqU,hUW^q",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "e)K:~aK[vX]9d4C{89rG": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "3*sRHI!Z+6q=t=CIWJj%"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_not",
-                    "parent": "m?m(/3zrQbUYA8C,12l+",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5882,18 +6110,18 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "esV@aM#3~iz[.ae$G{f.": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND": [
-                            2,
-                            "WgV#RJ!A,?.mx$C:MYq8"
+                "fX9JCC9N=CDAQ^q5f(eE": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "operator_not",
-                    "parent": "bb,!zuZ66c0zrn^.Qb}_",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "{85{Jk8e`c2h0p2i)7b5",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "fnWrBuReAL8J^!oraz6,": {
@@ -5953,6 +6181,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "gm0)$Mc:;xK8K23*oQ+{": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "up arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "WFLT*gL:qZJ~R4873u-q",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "g~#[64|tH~U}}~lvg$M2": {
                     "fields": {},
                     "inputs": {
@@ -5996,7 +6238,7 @@
                     },
                     "next": null,
                     "opcode": "operator_or",
-                    "parent": "#SJs3=z(:Gj0aH1!bA*Y",
+                    "parent": "I?6q;wuuVH_mL|OS(BBC",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6020,6 +6262,48 @@
                     "opcode": "data_setvariableto",
                     "parent": "P05Q-u^e4,ld`)gVo+O=",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "j3?w}}NAmyK{%oN--WS.": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "down arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "c6N;mnmr!9kfwxzK0HnH",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "jDcnc4r69syR%)Q(!@zM": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            ".C}eHZZ}~QCP/{:]M91k"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "WpXuY22aRS/sc()_x`It",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "jVr`4u]jHGNtN0?uLlxS": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "down arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "*Joy6^[kA_`4C%W=~HlZ",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "k-Csi_5+SnPm+I2Af]H8": {
@@ -6128,34 +6412,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "lEQ,)XEYv2/?rl9uWWX+": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "w",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "s@-0KqH1XfI=rj_H5jt[",
-                    "shadow": true,
-                    "topLevel": false
-                },
-                "lK3YWyP`(uth.ki}Xxy9": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "tm{yK03{ahCFO[8;U0s."
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "GE)w}+;+]cKvCMWsUvgs",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "lg.{/kbP)u]kgMP7VKlx": {
                     "fields": {},
                     "inputs": {
@@ -6182,6 +6438,38 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "2pe-Owtuv}+zP$Qy#ta]",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "lkip5?}oXr`WNW0]/C{d": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "s",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": ")(A?BzE7FGCJz$,eKe_W",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "ln%b*?^Y)B$D3m=R6+s,": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "m2IvV[F/|EhG.{W,Qkl["
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "FSHM(bk|HZLW|BWA70:|"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "C0hmOIagr?F@~jI=9p4Y",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6228,36 +6516,50 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "m#$LX{Gw)+DSC}kdeEZN": {
+                "m2IvV[F/|EhG.{W,Qkl[": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "{($ApDpp(_.l%t-lGm!}"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "(R%R+K^jH79OL-G0[/2N"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "ln%b*?^Y)B$D3m=R6+s,",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "m2KdnyHJM/!-HmJCu#L!": {
                     "fields": {
                         "KEY_OPTION": [
-                            "space",
+                            "up arrow",
                             null
                         ]
                     },
                     "inputs": {},
                     "next": null,
                     "opcode": "sensing_keyoptions",
-                    "parent": "*+yp,=^~QGDKkKmd;$WX",
+                    "parent": "$3=Ie/kq!uLNRc2|Omn:",
                     "shadow": true,
                     "topLevel": false
                 },
-                "m?m(/3zrQbUYA8C,12l+": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "D0B1P/I,k9UI2f=;X#t]"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "e)K:~aK[vX]9d4C{89rG"
+                "mVFSXB}`0?n=N7%Gi^,6": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "w",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "operator_and",
-                    "parent": "1L7d5A*a/p[`i=0?EzrR",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "dEWL8;T%K]T#?wdH{2T`",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "mXX^g~?-Muk!52#,)5K,": {
@@ -6545,6 +6847,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "pThW?^##F|S)QF3j`BvK": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "cD;94A)bjdxY|`3o-|lU"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            ")(A?BzE7FGCJz$,eKe_W"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "99`,pwyK?~yrTB-tU=fu",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "q?Ss^a2})BbeJuM{WM6T": {
                     "fields": {},
                     "inputs": {
@@ -6650,6 +6970,34 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "qvV`fJ,Y3qtp|k)Ewnkx": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "cD;94A)bjdxY|`3o-|lU",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "r!m~R0Qieph})gu+4b4L": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "w",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "(R%R+K^jH79OL-G0[/2N",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "rLFa}MD+Cp*l@yf*dj/e": {
                     "fields": {},
                     "inputs": {
@@ -6666,6 +7014,20 @@
                     "opcode": "control_if",
                     "parent": "zc.dIhLKdGo}n,:VU8rk",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "rXdQ~(lS.5nn80krls;V": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "s",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "O,ro@ESQGIe]rV.~!s1Q",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "rkf?#uZZ7g?@6{0^qow$": {
@@ -6695,20 +7057,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "s@-0KqH1XfI=rj_H5jt[": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "lEQ,)XEYv2/?rl9uWWX+"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "5=93P#-TOqQO;H+[624u",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "sV2Lk~Q:wN-/0Hl*f0WA": {
                     "fields": {},
                     "inputs": {
@@ -6721,34 +7069,6 @@
                     "opcode": "control_wait_until",
                     "parent": "6Zlj1:o~.]568N=3x0.q",
                     "shadow": false,
-                    "topLevel": false
-                },
-                "stoQXj9:T~DH{ZzEWU_[": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "9#uOZLaQ8hi~F0+Jz8iu"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "`6Gkx_x1Qv@:f]gCM4c.",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "t9[f)c]}[*~#5#W|L]`J": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "s",
-                            null
-                        ]
-                    },
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "^r4P;i:@V3X1x1*NL^gh",
-                    "shadow": true,
                     "topLevel": false
                 },
                 "tJ/izgOhU*DhQp4Y0790": {
@@ -6774,18 +7094,22 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "tm{yK03{ahCFO[8;U0s.": {
-                    "fields": {
-                        "KEY_OPTION": [
-                            "w",
-                            null
+                "u7Ss.I*aBJkg+NUo6mjF": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "{85{Jk8e`c2h0p2i)7b5"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "!otSOX:l[?(Ux%v9l^+j"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "lK3YWyP`(uth.ki}Xxy9",
-                    "shadow": true,
+                    "opcode": "operator_or",
+                    "parent": "WpXuY22aRS/sc()_x`It",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "ue}P:U6cOqj6kF!!7$/}": {
@@ -6868,17 +7192,17 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "vJ+QFY1%T.U[1KgIqKb?": {
+                "vLR9h[wcj-M4x{d0wtqi": {
                     "fields": {
                         "KEY_OPTION": [
-                            "space",
+                            "down arrow",
                             null
                         ]
                     },
                     "inputs": {},
                     "next": null,
                     "opcode": "sensing_keyoptions",
-                    "parent": "ba}XGI]@=r;#RS=/AZfl",
+                    "parent": ":gCzOju[9p{qn4!Ps[Up",
                     "shadow": true,
                     "topLevel": false
                 },
@@ -7082,7 +7406,7 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "yjaYoVq(_%t/^wz8iT%P": {
+                "yTGS^zslV-2iXo~0Q:27": {
                     "fields": {
                         "KEY_OPTION": [
                             "space",
@@ -7092,22 +7416,8 @@
                     "inputs": {},
                     "next": null,
                     "opcode": "sensing_keyoptions",
-                    "parent": "BZ~1,5^9g^j8:%WwT`k_",
+                    "parent": "$owA?r](SN9@!$N:1F:m",
                     "shadow": true,
-                    "topLevel": false
-                },
-                "z03`VUYBo]G~ll5D]@*s": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "Hj|,n?zBuE+B6!$5_E*}"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "CK7/**C__.?-_b+)@kRa",
-                    "shadow": false,
                     "topLevel": false
                 },
                 "zc.dIhLKdGo}n,:VU8rk": {
@@ -7180,18 +7490,18 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "{-H;7xVZWeblIJ?%(6SG": {
-                    "fields": {
+                "{($ApDpp(_.l%t-lGm!}": {
+                    "fields": {},
+                    "inputs": {
                         "KEY_OPTION": [
-                            "s",
-                            null
+                            1,
+                            "@58DRQSdkOX^TyC$1P+|"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "~k+?PD`h$:4f!;!^T{!h",
-                    "shadow": true,
+                    "opcode": "sensing_keypressed",
+                    "parent": "m2IvV[F/|EhG.{W,Qkl[",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "{7;8q-GbMJ_|hkJFwjH)": {
@@ -7209,6 +7519,34 @@
                     "next": null,
                     "opcode": "control_if",
                     "parent": "PFG`B~x(oxU]!$gy`.Jk",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "{825:o?TYeHcSya;M_``": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "s",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "KP06`d-u_DN+XaUhkj`]",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "{85{Jk8e`c2h0p2i)7b5": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "fX9JCC9N=CDAQ^q5f(eE"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "u7Ss.I*aBJkg+NUo6mjF",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -7296,7 +7634,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "Q:ha~3_Qk=4rgCnJ^3am"
+                            "_AjBF8rO=.agE~lXU0aR"
                         ],
                         "SUBSTACK": [
                             2,
@@ -7338,6 +7676,34 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "}QoyCte9O-1*$O#QbVmX": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "down arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "54sP:L{^{2IwXr9kIa.D",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "}dUKB_:g1Ll(lW9Ujf~!": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "~JD%;H=|zJH[fguhO{p+"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "X]~1[lmTt=Q1y|i:}uF1",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "}zrsT1JlT{=+y/$S1q11": {
                     "fields": {},
                     "inputs": {
@@ -7356,12 +7722,26 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "~)uph,:`}-RX[fUM+,l]": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "JLAwfllhIgeO,=~WEZWV"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "*1_v1pBNC6B(@^x[WjMN",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "~5K#$Q8DdZ{(LyFbJ)uB": {
                     "fields": {},
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            "`6Gkx_x1Qv@:f]gCM4c."
+                            ";K5,*16/hS4d/K.Sq~iq"
                         ],
                         "OPERAND2": [
                             2,
@@ -7414,18 +7794,32 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "~k+?PD`h$:4f!;!^T{!h": {
-                    "fields": {},
-                    "inputs": {
+                "~JD%;H=|zJH[fguhO{p+": {
+                    "fields": {
                         "KEY_OPTION": [
-                            1,
-                            "{-H;7xVZWeblIJ?%(6SG"
+                            "space",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "Q)YCluc2xs2TMnQ3oJtJ",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "}dUKB_:g1Ll(lW9Ujf~!",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "~[!LpYvv18t)3~AYMt}2": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "space",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "I.7`_XMy+$4!rD~D|qta",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "~uKmr~*#jfH6sJd}tj`X": {
@@ -7515,16 +7909,16 @@
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
-                    "1"
+                    "0"
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
-                    "0"
+                    10
                 ]
             },
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": -160,
             "y": -142
         },
         {
@@ -10432,11 +10826,11 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    7
+                    1
                 ],
                 "khDX:D*O}L(wn[u#SF+%": [
                     "LocalFloorCloneData",
-                    "-25.360.100.1"
+                    "-25.10.100.3"
                 ]
             },
             "visible": false,
@@ -12630,11 +13024,11 @@
                 ],
                 "FM%G![pT/9`Zd%8.pv4f": [
                     "LocalClimbCloneData",
-                    "-7.63.100.4"
+                    "255.0.100.3"
                 ],
                 "R[!KFSO0[w|8O^1t1w:9": [
                     "LocalLevel#",
-                    7
+                    1
                 ],
                 "S}Nl,IQV/Hd2KWfX0KC`": [
                     "floorTmp",
@@ -12678,18 +13072,18 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                ")V4@ngJ~7Ym.[S/E3Tpz": {
-                    "fields": {
+                ")arhJ:S=,SUFwDvX.NJ(": {
+                    "fields": {},
+                    "inputs": {
                         "KEY_OPTION": [
-                            "a",
-                            null
+                            1,
+                            "9QEKINh=U/=!8S9/~ZNW"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "mP1Pl_/F`M,uXy;|dwM{",
-                    "shadow": true,
+                    "opcode": "sensing_keypressed",
+                    "parent": "pp)Avd)1Zsb?4WMmqhuN",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "+m+c4fR!7R3M43j_Je{W": {
@@ -12697,7 +13091,7 @@
                     "inputs": {
                         "OPERAND": [
                             2,
-                            "]`cz.bj:8/}-zZn}Lre^"
+                            "gM9~X`E._q#R$c]h2OsC"
                         ]
                     },
                     "next": null,
@@ -12729,7 +13123,7 @@
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "Efg41Lfq$q0c:hysc|t^",
+                    "parent": "uwzLEh!$oJ.-v{TxE#WU",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -12747,18 +13141,18 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "/m7rzS1HM4H.LFddET9W": {
-                    "fields": {
+                "0!qCh8sPb|Ip(zyw;DE{": {
+                    "fields": {},
+                    "inputs": {
                         "KEY_OPTION": [
-                            "a",
-                            null
+                            1,
+                            "]%)jE6[:B_v$kEi8RSy-"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": "]`cz.bj:8/}-zZn}Lre^",
-                    "shadow": true,
+                    "opcode": "sensing_keypressed",
+                    "parent": "uwzLEh!$oJ.-v{TxE#WU",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "0E3RnG6#ucH)`IhYyQOR": {
@@ -12853,6 +13247,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "9QEKINh=U/=!8S9/~ZNW": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "a",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": ")arhJ:S=,SUFwDvX.NJ(",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "=o(zOH=LVz/AlBV?0S.`": {
                     "fields": {},
                     "inputs": {},
@@ -12861,8 +13269,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": 436,
-                    "y": 45
+                    "x": 152,
+                    "y": -78
                 },
                 "=s?LcF#5m[U-c)2biFI]": {
                     "fields": {},
@@ -12883,7 +13291,7 @@
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            ",4B}O9jz4gHfJmz|eO|K"
+                            "uwzLEh!$oJ.-v{TxE#WU"
                         ],
                         "OPERAND2": [
                             2,
@@ -12975,6 +13383,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "Q0.7iZQ;/lASr)cn7/B.": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "uyk(qlwZzRDl]]Gn/3Cf"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "pp)Avd)1Zsb?4WMmqhuN",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "R7c~o@5N-~i[oZKnuEWd": {
                     "fields": {
                         "EFFECT": [
@@ -13051,6 +13473,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "V(|i_M]bM8r6H2gG4ey3": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "n:8N`]lG,2v|B,mYzVQ$"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "gM9~X`E._q#R$c]h2OsC",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "X6sd-g%t80^mdYvD[eR0": {
                     "fields": {},
                     "inputs": {
@@ -13083,18 +13519,18 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "]`cz.bj:8/}-zZn}Lre^": {
-                    "fields": {},
-                    "inputs": {
+                "]%)jE6[:B_v$kEi8RSy-": {
+                    "fields": {
                         "KEY_OPTION": [
-                            1,
-                            "/m7rzS1HM4H.LFddET9W"
+                            "left arrow",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "+m+c4fR!7R3M43j_Je{W",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "0!qCh8sPb|Ip(zyw;DE{",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "d8d`@F,}~#-v%C+jlv1W": {
@@ -13134,6 +13570,38 @@
                     "next": null,
                     "opcode": "operator_or",
                     "parent": "MWgMHWl:m#=Shar(%sx#",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "fwNjwS._C[;ZR3skx_rQ": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "rN=+:pCdm9Q1C=)*CBAV"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "gM9~X`E._q#R$c]h2OsC",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "gM9~X`E._q#R$c]h2OsC": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "V(|i_M]bM8r6H2gG4ey3"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "fwNjwS._C[;ZR3skx_rQ"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "+m+c4fR!7R3M43j_Je{W",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13203,18 +13671,18 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "mP1Pl_/F`M,uXy;|dwM{": {
-                    "fields": {},
-                    "inputs": {
+                "n:8N`]lG,2v|B,mYzVQ$": {
+                    "fields": {
                         "KEY_OPTION": [
-                            1,
-                            ")V4@ngJ~7Ym.[S/E3Tpz"
+                            "a",
+                            null
                         ]
                     },
+                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "z:G3H|$-utR@yJq,F,pJ",
-                    "shadow": false,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "V(|i_M]bM8r6H2gG4ey3",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "nS+OeOP]tSfw%1Q,*7=~": {
@@ -13276,6 +13744,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "pp)Avd)1Zsb?4WMmqhuN": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            ")arhJ:S=,SUFwDvX.NJ("
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "Q0.7iZQ;/lASr)cn7/B."
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "z:G3H|$-utR@yJq,F,pJ",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "qV$/57%/nD[5q^sakl{;": {
                     "fields": {},
                     "inputs": {
@@ -13288,6 +13774,20 @@
                     "opcode": "sensing_touchingobject",
                     "parent": "e%M)t+I#.E+VR?LtPbRQ",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "rN=+:pCdm9Q1C=)*CBAV": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "left arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "fwNjwS._C[;ZR3skx_rQ",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "s!8dqg%Se5nJ*y;xnea;": {
@@ -13326,6 +13826,38 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "uwzLEh!$oJ.-v{TxE#WU": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            ",4B}O9jz4gHfJmz|eO|K"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "0!qCh8sPb|Ip(zyw;DE{"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "Efg41Lfq$q0c:hysc|t^",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "uyk(qlwZzRDl]]Gn/3Cf": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "left arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "Q0.7iZQ;/lASr)cn7/B.",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "yjzW3AttZ1TLGxn.DI#X": {
                     "fields": {},
                     "inputs": {
@@ -13345,7 +13877,7 @@
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            "mP1Pl_/F`M,uXy;|dwM{"
+                            "pp)Avd)1Zsb?4WMmqhuN"
                         ],
                         "OPERAND2": [
                             2,
@@ -13456,7 +13988,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -202,
+            "x": -162,
             "y": -124
         },
         {
@@ -13511,20 +14043,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                ")p*ZNF/+0h.M]Zk}fRke": {
-                    "fields": {},
-                    "inputs": {
-                        "KEY_OPTION": [
-                            1,
-                            "}@Jy[o!ho9:TW1a~xcT6"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "sensing_keypressed",
-                    "parent": "Z#~7n[e3x)sLc}FgwK+G",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 ")xYQ%_O|t6^16-_}]5s@": {
                     "fields": {},
                     "inputs": {},
@@ -13547,6 +14065,38 @@
                     "next": null,
                     "opcode": "control_forever",
                     "parent": "{5;Qs]1Dgf,{gzC`Jyy*",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "*g^_^C.h.:KAVk^ep!CJ": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "d",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": ":do^RV@^9o)*|Yo?tk9F",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "-;[72cef88sEa~lJ1^;O": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            ":do^RV@^9o)*|Yo?tk9F"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "|0M=8KS5Z?pR[3,.EItg"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "Z#~7n[e3x)sLc}FgwK+G",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13626,6 +14176,20 @@
                     "opcode": "data_changevariableby",
                     "parent": "xGnhpA8jegXc?@a3q;k;",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "0%(]o4^^Q!q;AnI{_e#/": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "left arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "|0M=8KS5Z?pR[3,.EItg",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "0qlOWz/Tg=n;+5y0iQsr": {
@@ -13717,7 +14281,7 @@
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            "]PP_P;mqnd58T.X.`b_-"
+                            "}}{h[K4B}fVE]v^5p{oq"
                         ],
                         "OPERAND2": [
                             2,
@@ -13727,6 +14291,20 @@
                     "next": null,
                     "opcode": "operator_and",
                     "parent": "9(4mh=aqD8CVQ=}HuL58",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ":do^RV@^9o)*|Yo?tk9F": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "*g^_^C.h.:KAVk^ep!CJ"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "-;[72cef88sEa~lJ1^;O",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13746,6 +14324,20 @@
                     "opcode": "motion_setx",
                     "parent": "^Y0H2|l6.8Fa=V|}x*01",
                     "shadow": false,
+                    "topLevel": false
+                },
+                "A.id0tlv?_o:5s]mQ3To": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "left arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "y~nT6yWO!U-E?~#gjaf$",
+                    "shadow": true,
                     "topLevel": false
                 },
                 "AWrP.S}|4bJ64tC;*^Z|": {
@@ -13831,6 +14423,34 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "HM`AX1=6lt7mRA{Q9,v%": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "iE.C1dhh$t~NY;N]KXNF"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "b/oh9m;SE#5+@w-_yQ|b",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "HyO[xcMz!G^88o9/p:,h": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "y{},4u@~pEJ0,Ih)G`lu"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "b/oh9m;SE#5+@w-_yQ|b",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "J)O{+hkgvhGA}Om=Cof3": {
                     "fields": {
                         "TOUCHINGOBJECTMENU": [
@@ -13873,9 +14493,11 @@
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": "]vRO,#Mql7D}59{sI{h4",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 559,
+                    "y": 925
                 },
                 "T}JPyR|ttf^+vbc@]qM*": {
                     "fields": {},
@@ -13927,7 +14549,7 @@
                     "inputs": {
                         "OPERAND": [
                             2,
-                            ")p*ZNF/+0h.M]Zk}fRke"
+                            "-;[72cef88sEa~lJ1^;O"
                         ]
                     },
                     "next": null,
@@ -13960,7 +14582,7 @@
                     },
                     "next": null,
                     "opcode": "sensing_keypressed",
-                    "parent": ":,^jnzPVO)LhH)NJ3cOm",
+                    "parent": "}}{h[K4B}fVE]v^5p{oq",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13983,7 +14605,7 @@
                     "inputs": {
                         "OPERAND1": [
                             2,
-                            "O+|AMV*4)-e13^zR4?uI"
+                            "b/oh9m;SE#5+@w-_yQ|b"
                         ],
                         "OPERAND2": [
                             2,
@@ -14045,6 +14667,24 @@
                     "shadow": true,
                     "topLevel": false
                 },
+                "b/oh9m;SE#5+@w-_yQ|b": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "HM`AX1=6lt7mRA{Q9,v%"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "HyO[xcMz!G^88o9/p:,h"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "]vRO,#Mql7D}59{sI{h4",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "dU6Gapve1A*%c,B!^%p2": {
                     "fields": {
                         "VARIABLE": [
@@ -14091,6 +14731,20 @@
                     "next": null,
                     "opcode": "sensing_touchingobjectmenu",
                     "parent": "%bRW[B,x#6dSup7#gP%S",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "iE.C1dhh$t~NY;N]KXNF": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "d",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "HM`AX1=6lt7mRA{Q9,v%",
                     "shadow": true,
                     "topLevel": false
                 },
@@ -14144,6 +14798,34 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "y{},4u@~pEJ0,Ih)G`lu": {
+                    "fields": {
+                        "KEY_OPTION": [
+                            "left arrow",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "sensing_keyoptions",
+                    "parent": "HyO[xcMz!G^88o9/p:,h",
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "y~nT6yWO!U-E?~#gjaf$": {
+                    "fields": {},
+                    "inputs": {
+                        "KEY_OPTION": [
+                            1,
+                            "A.id0tlv?_o:5s]mQ3To"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "sensing_keypressed",
+                    "parent": "}}{h[K4B}fVE]v^5p{oq",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "{%3-=~?j8IBB.8Ae+VXF": {
                     "fields": {},
                     "inputs": {
@@ -14169,18 +14851,18 @@
                     "x": 439,
                     "y": 617
                 },
-                "}@Jy[o!ho9:TW1a~xcT6": {
-                    "fields": {
+                "|0M=8KS5Z?pR[3,.EItg": {
+                    "fields": {},
+                    "inputs": {
                         "KEY_OPTION": [
-                            "d",
-                            null
+                            1,
+                            "0%(]o4^^Q!q;AnI{_e#/"
                         ]
                     },
-                    "inputs": {},
                     "next": null,
-                    "opcode": "sensing_keyoptions",
-                    "parent": ")p*ZNF/+0h.M]Zk}fRke",
-                    "shadow": true,
+                    "opcode": "sensing_keypressed",
+                    "parent": "-;[72cef88sEa~lJ1^;O",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "}I+F{R]1:2{DMH!oxN8u": {
@@ -14195,6 +14877,24 @@
                     "opcode": "sensing_touchingobjectmenu",
                     "parent": "(AFM%#Ljwx:264X12%=0",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "}}{h[K4B}fVE]v^5p{oq": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "]PP_P;mqnd58T.X.`b_-"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "y~nT6yWO!U-E?~#gjaf$"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": ":,^jnzPVO)LhH)NJ3cOm",
+                    "shadow": false,
                     "topLevel": false
                 }
             },
@@ -14234,7 +14934,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -175,
+            "x": -135,
             "y": -124
         },
         {
@@ -15037,7 +15737,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": -160,
             "y": -154
         },
         {
@@ -15114,6 +15814,20 @@
                     "next": "7(A^0fB}Bj87U(@JeOWc",
                     "opcode": "looks_switchcostumeto",
                     "parent": "Wgf=5dmj6TeW.Xtk+hM+",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "*(O`im}6d$D1L+FMD_7K": {
+                    "fields": {},
+                    "inputs": {
+                        "COSTUME": [
+                            1,
+                            "V/r`58wblh[}Ql1$o!Kd"
+                        ]
+                    },
+                    "next": "WNc1$L).C)97#I5_[sY5",
+                    "opcode": "looks_switchcostumeto",
+                    "parent": "r!Bu)v_EKZP{F%~^*5j*",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -15212,6 +15926,24 @@
                     "next": "raYcnXiiFJ|?YkK=Jh5#",
                     "opcode": "looks_show",
                     "parent": "N$E-,{Y3-@:g|GoT.6f{",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "6P=*2n?Xi{RB*31|lQLc": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "gd|8h0P=Qd|8eSCFy1fp"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "r!Bu)v_EKZP{F%~^*5j*"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "control_if",
+                    "parent": "W=:#zgJ#Fs1P$*W}.A@n",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -15330,6 +16062,15 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "(]Ua$/E6;6IyI`YZAGiU",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Az`Dpa}sx:D8u:Bo)}Z)": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "looks_hide",
+                    "parent": "WNc1$L).C)97#I5_[sY5",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -15484,6 +16225,20 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "V/r`58wblh[}Ql1$o!Kd": {
+                    "fields": {
+                        "COSTUME": [
+                            "costume6",
+                            null
+                        ]
+                    },
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "looks_costume",
+                    "parent": "*(O`im}6d$D1L+FMD_7K",
+                    "shadow": true,
+                    "topLevel": false
+                },
                 "W=:#zgJ#Fs1P$*W}.A@n": {
                     "fields": {},
                     "inputs": {
@@ -15496,9 +16251,52 @@
                             "ILUzcV`6c^XS:e!WncEK"
                         ]
                     },
-                    "next": null,
+                    "next": "6P=*2n?Xi{RB*31|lQLc",
                     "opcode": "control_if",
                     "parent": "Wr^tGH(-qmiN*db0vyf%",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "WE.Rhpf_+p5$T9^Gj``.": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "level",
+                                "_v]f;T!v%+ONt[]cdA93"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "7"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "h^`ZpEB$f2,Q~ijkL3S9",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "WNc1$L).C)97#I5_[sY5": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "h^`ZpEB$f2,Q~ijkL3S9"
+                        ]
+                    },
+                    "next": "Az`Dpa}sx:D8u:Bo)}Z)",
+                    "opcode": "control_wait_until",
+                    "parent": "*(O`im}6d$D1L+FMD_7K",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -15642,6 +16440,49 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "gd|8h0P=Qd|8eSCFy1fp": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "level",
+                                "_v]f;T!v%+ONt[]cdA93"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "7"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "6P=*2n?Xi{RB*31|lQLc",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "h^`ZpEB$f2,Q~ijkL3S9": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "WE.Rhpf_+p5$T9^Gj``."
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "WNc1$L).C)97#I5_[sY5",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "j0g?9`PK7TqPJK+j6V|P": {
                     "fields": {},
                     "inputs": {
@@ -15735,6 +16576,15 @@
                     "opcode": "looks_costume",
                     "parent": "raYcnXiiFJ|?YkK=Jh5#",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "r!Bu)v_EKZP{F%~^*5j*": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": "*(O`im}6d$D1L+FMD_7K",
+                    "opcode": "looks_show",
+                    "parent": "6P=*2n?Xi{RB*31|lQLc",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "rDs!H00Pg`m/{_X0wv}#": {
@@ -15874,9 +16724,18 @@
                     "name": "costume5",
                     "rotationCenterX": 169.46318678855891,
                     "rotationCenterY": 70.14560365676883
+                },
+                {
+                    "assetId": "56f7d8f67a2aa404ab0b714a44c6c32d",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "md5ext": "56f7d8f67a2aa404ab0b714a44c6c32d.svg",
+                    "name": "costume6",
+                    "rotationCenterX": 182.19325118064876,
+                    "rotationCenterY": 31.145603656768827
                 }
             ],
-            "currentCostume": 4,
+            "currentCostume": 1,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -15897,7 +16756,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -36,
             "y": 37
@@ -18230,7 +19089,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    7
+                    1
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -18238,7 +19097,7 @@
                 ],
                 "UqR7Ec/|z44ERz9aKR@F": [
                     "LocalDeathCloneData",
-                    "-78.-83.100.6"
+                    "-78.-83.100.1"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -18533,7 +19392,7 @@
                             1,
                             [
                                 10,
-                                "6"
+                                "7"
                             ]
                         ]
                     },
@@ -19526,7 +20385,7 @@
                     "rotationCenterY": 51.38663220088628
                 }
             ],
-            "currentCostume": 1,
+            "currentCostume": 0,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -22319,7 +23178,7 @@
                 ],
                 "zbn2.;|434HSgjp+Y=qe": [
                     "LocalLevel#",
-                    7
+                    1
                 ]
             },
             "visible": false,
@@ -22936,7 +23795,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -200,
+            "x": -160,
             "y": -130
         },
         {
@@ -23690,6 +24549,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "*)Oj4K[aUAYA7?4H,Gqc": [
+                    12,
+                    "META-StartLoc",
+                    "]}%[`M=@eK3*yDJFb3P!",
+                    -1662,
+                    2615
+                ],
                 "*+P2qyS-C16GuKuQeWif": {
                     "fields": {},
                     "inputs": {
@@ -23777,6 +24643,32 @@
                     "parent": "qRY+tJ*FZ(dzXSCq3gr5",
                     "shadow": false,
                     "topLevel": false
+                },
+                ",iLFVUiO7s+9Ua~(bWry": {
+                    "fields": {},
+                    "inputs": {
+                        "qRa_EM$LDxNb~rnY[DFN": [
+                            1,
+                            [
+                                10,
+                                "2,100,100,-200.-142,186.-128,100,100,1;-25.10.100.1,-25.360.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.6"
+                            ]
+                        ]
+                    },
+                    "mutation": {
+                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
+                        "children": [],
+                        "proccode": "FastDecode %s",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": null,
+                    "opcode": "procedures_call",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -1453,
+                    "y": 1659
                 },
                 "-(=)vd//~?j4EY^ENACm": {
                     "fields": {
@@ -25004,13 +25896,6 @@
                     "x": -1432,
                     "y": 1141
                 },
-                "JT2%@lwv-5bC8|*CxNmA": [
-                    12,
-                    "META-StartLoc",
-                    "]}%[`M=@eK3*yDJFb3P!",
-                    -1662,
-                    2615
-                ],
                 "K%rX40]BJ3YfIkshT9E9": {
                     "fields": {},
                     "inputs": {
@@ -25359,6 +26244,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "Q}?3qMw.4B-Jn/?WV;(u": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "level",
+                                "_v]f;T!v%+ONt[]cdA93"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "8"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "W#aUhQO]JJ#A@kI~vkz~",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "R,4Uu|B*WS{B}nSEg~K*": {
                     "fields": {},
                     "inputs": {
@@ -25640,6 +26554,26 @@
                     "parent": "aqf78onm%R$]/nuxtqy{",
                     "shadow": false,
                     "topLevel": false
+                },
+                "W#aUhQO]JJ#A@kI~vkz~": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "Q}?3qMw.4B-Jn/?WV;(u"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "bPVlALhBDaeP|O:SmF^V"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "control_if",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -894,
+                    "y": 3388
                 },
                 "W$:;lvXpA8(#T]tROk3I": {
                     "fields": {},
@@ -26275,6 +27209,30 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "bPVlALhBDaeP|O:SmF^V": {
+                    "fields": {},
+                    "inputs": {
+                        "qRa_EM$LDxNb~rnY[DFN": [
+                            1,
+                            [
+                                10,
+                                "2,100,100,-200.-142,186.-128,100,100,1;-25.10.100.1,-25.360.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.6"
+                            ]
+                        ]
+                    },
+                    "mutation": {
+                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
+                        "children": [],
+                        "proccode": "FastDecode %s",
+                        "tagName": "mutation",
+                        "warp": "true"
+                    },
+                    "next": null,
+                    "opcode": "procedures_call",
+                    "parent": "W#aUhQO]JJ#A@kI~vkz~",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "bhN@hhHiIQ$bgfZ4Wc2}": {
                     "fields": {},
                     "inputs": {
@@ -26589,8 +27547,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": -1293,
-                    "y": 1725
+                    "x": -1312,
+                    "y": 2107
                 },
                 "igT;(lnxc!P;#8jSZ32{": {
                     "fields": {
@@ -27727,6 +28685,15 @@
                     "x": 976.8888939751478,
                     "y": 27.95062771550588
                 },
+                ";pgf!%H5S|Pd;`Xy@Zyd": {
+                    "blockId": null,
+                    "height": 83.95965576171875,
+                    "minimized": false,
+                    "text": "Level 7",
+                    "width": 212.544921875,
+                    "x": -423.24395585639706,
+                    "y": 1648.2389308746003
+                },
                 "MGLcg(s}Ce6UwnFx|{*Q": {
                     "blockId": null,
                     "height": 87.9959716796875,
@@ -27871,7 +28838,7 @@
             "isStage": false,
             "layerOrder": 12,
             "lists": {},
-            "name": "s",
+            "name": "Decoder",
             "rotationStyle": "all around",
             "size": 100,
             "sounds": [
@@ -27904,7 +28871,7 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    7
+                    1
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -30917,7 +31884,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    7
+                    1
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
