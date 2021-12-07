@@ -316,7 +316,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
+            "value": 3,
             "visible": true,
             "width": 0,
             "x": 366,
@@ -1621,7 +1621,8 @@
                 "97|x(C2e/+O{abGSjIW9": [
                     "DeathData",
                     [
-                        ""
+                        "-79.-83.100.3",
+                        "-78.275.100.1"
                     ]
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
@@ -1636,7 +1637,6 @@
                     [
                         "-25.-175.100.4",
                         "-25.360.100.3",
-                        "0.0.100.0",
                         "205.-172.100.0",
                         "220.-172.100.0"
                     ]
@@ -1714,7 +1714,7 @@
                 ],
                 "9G{ck`TfEnTI_,Os]k*%": [
                     "yFreezeWant",
-                    "0"
+                    0
                 ],
                 ":cP7H*N@F!!UzzPUd]$(": [
                     "Yfreeze",
@@ -1722,7 +1722,7 @@
                 ],
                 "?kg2eh#cPhe{|anpcFix": [
                     "Deaths",
-                    "0"
+                    3
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
@@ -1738,7 +1738,7 @@
                 ],
                 "S6.8m33c%PwA9omGYyDL": [
                     "xLocation",
-                    -175
+                    "-200"
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
@@ -1766,7 +1766,7 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    "-25.-175.100.4,-25.360.100.3,0.0.100.0,205.-172.100.0,220.-172.100.0"
+                    "-25.-175.100.4,-25.360.100.3,205.-172.100.0,220.-172.100.0"
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
@@ -1778,7 +1778,7 @@
                 ],
                 "h)%_BF-]!;?1[=/K=0Sl": [
                     "DEATH-ALL",
-                    ""
+                    "-79.-83.100.3,-78.275.100.1"
                 ],
                 "jPo9_dtHj8_3(7ue`szU": [
                     "META-StartY",
@@ -1826,7 +1826,7 @@
                 ],
                 "w4,7AeTLY6}!tgR~g*wB": [
                     "CurrentFallSpeed",
-                    100
+                    "100"
                 ],
                 "}^P7!m}Ub1{=1CQg*8.B": [
                     "FLIP-ALL",
@@ -8499,7 +8499,7 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -175,
+            "x": -200,
             "y": -144
         },
         {
@@ -17038,7 +17038,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -177,
+            "x": -202,
             "y": -126
         },
         {
@@ -18060,7 +18060,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -150,
+            "x": -175,
             "y": -126
         },
         {
@@ -18890,7 +18890,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -175,
+            "x": -200,
             "y": -156
         },
         {
@@ -22150,12 +22150,12 @@
                     "rotationCenterY": 0
                 },
                 {
-                    "assetId": "2a511622e9c9fd2249d5452c1ad417f1",
+                    "assetId": "535270179a9ca5d1dd438b18bfb05dfb",
                     "bitmapResolution": 1,
                     "dataFormat": "svg",
-                    "md5ext": "2a511622e9c9fd2249d5452c1ad417f1.svg",
+                    "md5ext": "535270179a9ca5d1dd438b18bfb05dfb.svg",
                     "name": "costume5",
-                    "rotationCenterX": 12,
+                    "rotationCenterX": 16.322451579699532,
                     "rotationCenterY": 136
                 },
                 {
@@ -22177,7 +22177,7 @@
                     "rotationCenterY": 121
                 }
             ],
-            "currentCostume": 2,
+            "currentCostume": 3,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -22250,7 +22250,7 @@
                 ],
                 "UqR7Ec/|z44ERz9aKR@F": [
                     "LocalDeathCloneData",
-                    ""
+                    "-78.275.100.1"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -26999,7 +26999,7 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -175,
+            "x": -200,
             "y": -132
         },
         {
@@ -27717,32 +27717,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                ")M3;!#qz7)zIamsq3g2D": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.5"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1429,
-                    "y": 1251
-                },
                 ")OQfDc;GBSf8A1Nh26y4": {
                     "fields": {},
                     "inputs": {
@@ -27887,32 +27861,6 @@
                     "parent": "qRY+tJ*FZ(dzXSCq3gr5",
                     "shadow": false,
                     "topLevel": false
-                },
-                ",iLFVUiO7s+9Ua~(bWry": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,1;-25.10.100.1,-25.360.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.6"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1453,
-                    "y": 1659
                 },
                 "-(=)vd//~?j4EY^ENACm": {
                     "fields": {
@@ -28325,32 +28273,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "3`{@5@`!gpVury1hOenN": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.4"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1432,
-                    "y": 1377
-                },
                 "4Ye,e?qop|!n7w:tB~dR": {
                     "fields": {},
                     "inputs": {
@@ -28526,32 +28448,6 @@
                     "parent": "g@|kE[#Je~1!HajkUV5|",
                     "shadow": false,
                     "topLevel": false
-                },
-                "=Q#O^30L9F)8la8xrL!6": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.1;-215.10.100.1,260.24.100.1;-7.63.100.4;-78.-83.100.6"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1447,
-                    "y": 1535
                 },
                 "=em8(6`N4HMpn|?h([D5": {
                     "fields": {},
@@ -29026,32 +28922,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "H:AoHdjl16S!HrO[DX;x": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.4;-215.10.100.1,260.24.100.1;;-78.-83.100.3"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1439,
-                    "y": 999
-                },
                 "Hd$_LlW8~HHq$J$Wkjia": {
                     "fields": {
                         "VALUE": [
@@ -29137,32 +29007,6 @@
                     "parent": "zr*l]t{`4!{-t62g4n8$",
                     "shadow": false,
                     "topLevel": false
-                },
-                "IHm1r_-(5pSpC)XruU|w": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.4;-215.10.100.1,260.24.100.1;-7.63.100.1;-78.-83.100.3"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1432,
-                    "y": 1141
                 },
                 "K%rX40]BJ3YfIkshT9E9": {
                     "fields": {},
@@ -29431,32 +29275,6 @@
                     "parent": "]H.sB4[pK,?7X9Fm=JUq",
                     "shadow": false,
                     "topLevel": false
-                },
-                "OgC@PmW(QWcx]rM/zi$F": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.-50.100.1;-215.10.100.1,260.24.100.1;-210.0.100.3,255.0.100.3;"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1440,
-                    "y": 726
                 },
                 "PcMyE2rfVAgg[JzjnW~E": {
                     "fields": {
@@ -30458,7 +30276,7 @@
                             1,
                             [
                                 10,
-                                "2,100,100,-200.-142,186.-128,100,100,1;-25.-175.100.4,-25.360.100.3,0.0.100.0,205.-172.100.0,220.-172.100.0;-215.10.100.1,260.24.100.1;-210.0.100.3,255.0.100.3;"
+                                "2,100,100,-200.-142,186.-128,100,100,1;-25.-175.100.4,-25.360.100.3,205.-172.100.0,220.-172.100.0;-215.10.100.1,260.24.100.1;-210.0.100.3,255.0.100.3;-79.-83.100.3,-78.275.100.1"
                             ]
                         ]
                     },
@@ -31349,32 +31167,6 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "s81Of)k:+e:7gdv.OcGU": {
-                    "fields": {},
-                    "inputs": {
-                        "qRa_EM$LDxNb~rnY[DFN": [
-                            1,
-                            [
-                                10,
-                                "2,100,100,-200.-142,186.-128,100,100,0;-25.10.100.3;-215.10.100.1,260.24.100.1;-210.0.100.3,255.0.100.3;-78.-83.100.1"
-                            ]
-                        ]
-                    },
-                    "mutation": {
-                        "argumentids": "[\"qRa_EM$LDxNb~rnY[DFN\"]",
-                        "children": [],
-                        "proccode": "FastDecode %s",
-                        "tagName": "mutation",
-                        "warp": "true"
-                    },
-                    "next": null,
-                    "opcode": "procedures_call",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -1440,
-                    "y": 857
-                },
                 "sEmrj(4c.eA{];_NE.Ve": {
                     "fields": {},
                     "inputs": {
@@ -31949,15 +31741,6 @@
             },
             "broadcasts": {},
             "comments": {
-                "3}Y9M/F%_xqMHpCCw7dx": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 3",
-                    "width": 183,
-                    "x": -544,
-                    "y": 1135
-                },
                 "5v*TwL^MjxmE]cBFXW|#": {
                     "blockId": null,
                     "height": 85,
@@ -31967,15 +31750,6 @@
                     "x": 637,
                     "y": 1007
                 },
-                "9#zM),IoSfZ{}FIGx4=t": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 5",
-                    "width": 237,
-                    "x": -521,
-                    "y": 1369
-                },
                 ":|Q}zjfNCUvtnhOmr?[;": {
                     "blockId": null,
                     "height": 200,
@@ -31984,24 +31758,6 @@
                     "width": 200,
                     "x": 976,
                     "y": 27
-                },
-                ";pgf!%H5S|Pd;`Xy@Zyd": {
-                    "blockId": null,
-                    "height": 83,
-                    "minimized": false,
-                    "text": "Level 7",
-                    "width": 212,
-                    "x": -423,
-                    "y": 1648
-                },
-                "MGLcg(s}Ce6UwnFx|{*Q": {
-                    "blockId": null,
-                    "height": 87,
-                    "minimized": false,
-                    "text": "Level 0",
-                    "width": 183,
-                    "x": -552,
-                    "y": 713
                 },
                 "N/OeG_Zp}|%M2hXyG+h0": {
                     "blockId": null,
@@ -32021,15 +31777,6 @@
                     "x": -530,
                     "y": 438
                 },
-                "Vsrdi4fVwN%wpFv{rpDH": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 6",
-                    "width": 237,
-                    "x": -547,
-                    "y": 1515
-                },
                 "Wg)}DUjG|+N@b^j5#!e6": {
                     "blockId": null,
                     "height": 82,
@@ -32047,15 +31794,6 @@
                     "width": 200,
                     "x": 328,
                     "y": 1393
-                },
-                "[Zom/q,xB7uX8K:h)lY+": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 2",
-                    "width": 183,
-                    "x": -582,
-                    "y": 985
                 },
                 "]@]*{hnV`S?}gPSE3fgB": {
                     "blockId": null,
@@ -32101,24 +31839,6 @@
                     "width": 404,
                     "x": -1383,
                     "y": 385
-                },
-                "r|K,q0/p4?oo4J@m[7Mx": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 4",
-                    "width": 183,
-                    "x": -523,
-                    "y": 1251
-                },
-                "z)A`GJ^=EIidiu3F~S,^": {
-                    "blockId": null,
-                    "height": 89,
-                    "minimized": false,
-                    "text": "Level 1",
-                    "width": 183,
-                    "x": -362,
-                    "y": 848
                 }
             },
             "costumes": [
