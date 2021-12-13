@@ -146,7 +146,7 @@
         },
         {
             "height": 0,
-            "id": "v(PEKZmUjpj7HUAkR}k*_yposition",
+            "id": "|G8X@jC;iF55J0OD|s-g_yposition",
             "isDiscrete": true,
             "mode": "default",
             "opcode": "motion_yposition",
@@ -190,8 +190,8 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 0,
-            "visible": false,
+            "value": 3,
+            "visible": true,
             "width": 0,
             "x": 5,
             "y": 0
@@ -316,8 +316,8 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
-            "visible": false,
+            "value": 9,
+            "visible": true,
             "width": 0,
             "x": 366,
             "y": 0
@@ -601,7 +601,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "-78.-83.100.6",
+            "value": "",
             "visible": false,
             "width": 0,
             "x": 5,
@@ -763,7 +763,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 0,
+            "value": 685,
             "visible": false,
             "width": 0,
             "x": 5,
@@ -1621,7 +1621,7 @@
                 "97|x(C2e/+O{abGSjIW9": [
                     "DeathData",
                     [
-                        ""
+                        "-78.-83.100.3"
                     ]
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
@@ -1634,7 +1634,9 @@
                 "B^fv_s|%j)%[[f~glF@V": [
                     "FloorData",
                     [
-                        "0.-175.100.1"
+                        "-25.-175.100.4",
+                        "205.-172.100.0",
+                        "220.-172.100.0"
                     ]
                 ],
                 "P%14HUI:|X%tps*$ceJ,": [
@@ -1644,8 +1646,7 @@
                 "n@J3cmZzr@Z_71#r8qfh": [
                     "climbData",
                     [
-                        "-210.0.100.3",
-                        "255.0.100.3"
+                        "-7.63.100.1"
                     ]
                 ]
             },
@@ -1686,7 +1687,7 @@
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
-                    -143.6
+                    -144.0100004
                 ],
                 "/]N5ma[TLCPBKLW]83)i": [
                     "BlocksY",
@@ -1710,7 +1711,7 @@
                 ],
                 "9G{ck`TfEnTI_,Os]k*%": [
                     "yFreezeWant",
-                    "0"
+                    0
                 ],
                 ":cP7H*N@F!!UzzPUd]$(": [
                     "Yfreeze",
@@ -1718,15 +1719,15 @@
                 ],
                 "?kg2eh#cPhe{|anpcFix": [
                     "Deaths",
-                    "0"
+                    9
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    "-210.0.100.3,255.0.100.3"
+                    "-7.63.100.1"
                 ],
                 "P=JtO4}B|Wc^aXJ|1zon": [
                     "BlocksHidden",
-                    608
+                    "0"
                 ],
                 "R^d/a;%@,7**$8_eF3J/": [
                     "Loaded",
@@ -1734,7 +1735,7 @@
                 ],
                 "S6.8m33c%PwA9omGYyDL": [
                     "xLocation",
-                    -105
+                    -215
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
@@ -1754,7 +1755,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    0
+                    3
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -1762,7 +1763,7 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    "0.-175.100.1"
+                    "-25.-175.100.4,205.-172.100.0,220.-172.100.0"
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
@@ -1770,11 +1771,11 @@
                 ],
                 "fHy3L:`-0(qf)A]02#JL": [
                     "BottomFreezeWant",
-                    "0"
+                    "1"
                 ],
                 "h)%_BF-]!;?1[=/K=0Sl": [
                     "DEATH-ALL",
-                    ""
+                    "-78.-83.100.3"
                 ],
                 "jPo9_dtHj8_3(7ue`szU": [
                     "META-StartY",
@@ -2102,24 +2103,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "(Ws|5868/=FL:0x{@JNB": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "x%$+ow-eSVesK$X49V6`"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "eXGc$#[ua/yO:Rv^qqxu"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_or",
-                    "parent": "oBTf$3v+L#)g[vK_v:?6",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "(ZoGsMIY3#t6T,]o,Wd$": {
                     "fields": {},
                     "inputs": {
@@ -2206,6 +2189,28 @@
                     "next": null,
                     "opcode": "operator_multiply",
                     "parent": "Vl?=]m`t)of5GjSb8=pc",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ")Gv^1O6Qqxi9CMY4`w#c": {
+                    "fields": {
+                        "VARIABLE": [
+                            "i",
+                            "bLDezI0iYSr;B:b?P[5K"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": "vvJdvnK(:m;4%MM#=XtN",
+                    "opcode": "data_setvariableto",
+                    "parent": "JI`m+?Chb/o8pjcd1?9U",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2338,6 +2343,31 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "*6y`i,FRk*|e=0h+GnPP": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "10"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            ":ewEe]ICip)?*Yx,%LvI",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": ":i`uv9c-%Y!u[wxpW`E$",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "*J^^_Mco:I1j=!.usU[0": {
                     "fields": {},
                     "inputs": {
@@ -2421,6 +2451,20 @@
                     "next": null,
                     "opcode": "operator_gt",
                     "parent": "k-Csi_5+SnPm+I2Af]H8",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "*j9p$1*X.%ab^L_?VOp!": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "/[`f+Qt2FDfcFX`-XXZa"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "PV`~~Uc+GF=h=pSt*B`h",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2566,6 +2610,20 @@
                     "next": "6pLO=55bbx[.RQQc#,Vj",
                     "opcode": "data_setvariableto",
                     "parent": "A1B[~VO*E*=`l~aCp5{K",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "-+W)v^:u+!l#D1mx}Nkx": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "^!fm0H7,B,jA6L@lN8!s"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "kN+:KN=DL`P3p!4.v9z_",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -2758,6 +2816,35 @@
                     "opcode": "sensing_keyoptions",
                     "parent": "1g*gJ4FZ*}lZMfIYeU;G",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "/[`f+Qt2FDfcFX`-XXZa": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "*j9p$1*X.%ab^L_?VOp!",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "/_dBaohzJz|Bo.!?W*Y1": {
@@ -3199,9 +3286,11 @@
                     },
                     "next": null,
                     "opcode": "operator_equals",
-                    "parent": ";?r[G0CLfL)dfMXYa{Vh",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 19,
+                    "y": 3301
                 },
                 "4)7@HET0|C^XS67$sbFe": {
                     "fields": {},
@@ -3214,6 +3303,49 @@
                     "next": null,
                     "opcode": "control_wait_until",
                     "parent": "b#qJj2MSoYg`.|3;+-jh",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "4-n]w4($RylOFG5BSkkN": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "fPX|$i}!cZ9cBqNQdKoH"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "_7)]2Gut1R+s[JdVjP5G",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "4po]x#(Ducx@fs3%Q:y)": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "[@}i7!~D_uK%4hED4P!h",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3239,6 +3371,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "4|/lQjhXJXlT$!XoD-$|": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "9^8F)g[FNS2IL[9#;Rc-",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "54sP:L{^{2IwXr9kIa.D": {
                     "fields": {},
                     "inputs": {
@@ -3250,6 +3411,35 @@
                     "next": null,
                     "opcode": "sensing_keypressed",
                     "parent": "Ktb.#,(J?C^by_z3Sy#w",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "5Tb||26w$^^xDyopXK[p": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "PV`~~Uc+GF=h=pSt*B`h",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3409,6 +3599,37 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "8B~0K91l!PDbH_+t~h3B": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -1085,
+                    "y": 3006
+                },
                 "8Da!.+;HiBjcTPt[jTCz": {
                     "fields": {
                         "TOUCHINGOBJECTMENU": [
@@ -3520,6 +3741,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "9^8F)g[FNS2IL[9#;Rc-": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "4|/lQjhXJXlT$!XoD-$|"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "[@}i7!~D_uK%4hED4P!h"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "oBTf$3v+L#)g[vK_v:?6",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "9hf-c:JU+y~kr,~Kyo!+": {
                     "fields": {},
                     "inputs": {
@@ -3559,7 +3798,7 @@
                     },
                     "next": null,
                     "opcode": "operator_equals",
-                    "parent": "`1fN1AD@Sf+PO*s[eC;?",
+                    "parent": "[_V_q7vteq2L;?,BYuF+",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3585,6 +3824,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ":ewEe]ICip)?*Yx,%LvI": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            3,
+                            [
+                                12,
+                                "META-JumpHeight",
+                                "pdCVYKcWd04BbT1R4+xC"
+                            ],
+                            [
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            1,
+                            [
+                                4,
+                                "100"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_divide",
+                    "parent": "*6y`i,FRk*|e=0h+GnPP",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 ":gCzOju[9p{qn4!Ps[Up": {
                     "fields": {},
                     "inputs": {
@@ -3598,6 +3866,31 @@
                     "parent": "99`,pwyK?~yrTB-tU=fu",
                     "shadow": false,
                     "topLevel": false
+                },
+                ":i`uv9c-%Y!u[wxpW`E$": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "*6y`i,FRk*|e=0h+GnPP",
+                            [
+                                4,
+                                "10"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_changevariableby",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -883,
+                    "y": 2176
                 },
                 ":r-$(HS2WCAZ50@h16[T": {
                     "fields": {},
@@ -3712,7 +4005,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "3q61pUy_zGD3)2^V8/DS"
+                            "kN+:KN=DL`P3p!4.v9z_"
                         ]
                     },
                     "next": "G)[jujfKw%/.C}W)kIWW",
@@ -3736,6 +4029,20 @@
                     "next": null,
                     "opcode": "operator_or",
                     "parent": "~5K#$Q8DdZ{(LyFbJ)uB",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ";O07D6MDehP$F=|#LAaS": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "~WDoghi@Nc64PmXSpOGC"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "W1(6JW%;c4Y]3p{!W7yM",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -3843,29 +4150,6 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "=u8F^5%I3*QF(2]9G|J1": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            3,
-                            "xDAzd=@$A_D+qKR!D=(S",
-                            [
-                                4,
-                                "10"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_changevariableby",
-                    "parent": "{|c5`WvTvcB:,3L]s(m?",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "?#2=b70umd+%$VX3aRLE": {
                     "fields": {},
                     "inputs": {
@@ -3910,24 +4194,6 @@
                     "next": "tJ/izgOhU*DhQp4Y0790",
                     "opcode": "control_if",
                     "parent": ";:E*d0LcgSDw08Imx=/r",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "?4=}FDn~gL/It5{NeNhA": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "LuZBN3%*^kRMUmFa;9p9"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "Bzp$0]1e{InO4SI`qQox"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_or",
-                    "parent": "G)[jujfKw%/.C}W)kIWW",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4054,35 +4320,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "A-Liy:@(Ip{^`2^t]sNZ": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "BottomFreezeWant",
-                                "fHy3L:`-0(qf)A]02#JL"
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "Tr@Zr1nB5Gc_$:b?sX4A",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "A1B[~VO*E*=`l~aCp5{K": {
                     "fields": {},
                     "inputs": {
@@ -4109,8 +4346,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": 683,
-                    "y": 11
+                    "x": 986,
+                    "y": -8
                 },
                 "AYAmLk#)WE96|Db;nN_~": {
                     "fields": {},
@@ -4138,6 +4375,49 @@
                     "next": null,
                     "opcode": "operator_gt",
                     "parent": "~n-q~.Y2r#X1:qV(c8;Y",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "AlG:g:l%dM?6IifI7Fkf": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "AqSsyq[,{y*Q:jeR-:]w"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "[=[249JhQE$W=6g?Oo#t",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "AqSsyq[,{y*Q:jeR-:]w": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "AlG:g:l%dM?6IifI7Fkf",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -4221,35 +4501,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Bzp$0]1e{InO4SI`qQox": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "BottomFreezeWant",
-                                "fHy3L:`-0(qf)A]02#JL"
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "?4=}FDn~gL/It5{NeNhA",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "C0hmOIagr?F@~jI=9p4Y": {
                     "fields": {},
                     "inputs": {
@@ -4282,6 +4533,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "CD+lTpDnWQXg,4Pl*o6i": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "_7)]2Gut1R+s[JdVjP5G",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "CDeU9KU)Sip?B`,ahaMF": {
                     "fields": {
                         "VARIABLE": [
@@ -4298,7 +4578,7 @@
                             ]
                         ]
                     },
-                    "next": null,
+                    "next": "Wo`cWLKJ#kozU:iOWi[p",
                     "opcode": "data_changevariableby",
                     "parent": "{|c5`WvTvcB:,3L]s(m?",
                     "shadow": false,
@@ -4429,7 +4709,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "qfi={1m)5%+b}OBToIUF"
+                            "[=[249JhQE$W=6g?Oo#t"
                         ]
                     },
                     "next": "cSaVnmVf;$zpMBTkTD7t",
@@ -4553,7 +4833,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "?4=}FDn~gL/It5{NeNhA"
+                            "_7)]2Gut1R+s[JdVjP5G"
                         ],
                         "SUBSTACK": [
                             2,
@@ -4750,6 +5030,29 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "J+!$pz{gLsZ@,ZM[q945": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "JT[4|!AIXIf?M.ThsO|p",
+                            [
+                                4,
+                                "10"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_changevariableby",
+                    "parent": "{|c5`WvTvcB:,3L]s(m?",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "J.SN5EE)RIg%#xU4BXzo": {
                     "fields": {},
                     "inputs": {
@@ -4773,7 +5076,7 @@
                     "inputs": {
                         "SUBSTACK": [
                             2,
-                            "Wo`cWLKJ#kozU:iOWi[p"
+                            "{|c5`WvTvcB:,3L]s(m?"
                         ],
                         "TIMES": [
                             1,
@@ -4783,7 +5086,7 @@
                             ]
                         ]
                     },
-                    "next": null,
+                    "next": ")Gv^1O6Qqxi9CMY4`w#c",
                     "opcode": "control_repeat",
                     "parent": "{$,FX_%tHxiciz-!/F~M",
                     "shadow": false,
@@ -4801,6 +5104,31 @@
                     "opcode": "sensing_keyoptions",
                     "parent": "~)uph,:`}-RX[fUM+,l]",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "JT[4|!AIXIf?M.ThsO|p": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "10"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "nVI)ui?xW/8f7HUgD^+b",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": "J+!$pz{gLsZ@,ZM[q945",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "JX}Qc?Ob:6RpOX@.BLCg": {
@@ -4883,17 +5211,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Ko0)zi6J4uO)-{2TS[5)": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "control_forever",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -635,
-                    "y": 217
-                },
                 "KqYCqA_~bng7g6%ew;cr": {
                     "fields": {},
                     "inputs": {
@@ -4941,32 +5258,21 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "LuZBN3%*^kRMUmFa;9p9": {
+                "M(GoZ_Bi9t2+Qg/UB5Un": {
                     "fields": {},
                     "inputs": {
                         "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "Yfreeze",
-                                ":cP7H*N@F!!UzzPUd]$("
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
+                            2,
+                            "w73]A*A!l-hMezRCBuc]"
                         ],
                         "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
+                            2,
+                            "{wZW0aH-6*D_yBt-aN;p"
                         ]
                     },
                     "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "?4=}FDn~gL/It5{NeNhA",
+                    "opcode": "operator_or",
+                    "parent": "ROw`?y~@2AlCY2bZQpD:",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5345,6 +5651,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "PV`~~Uc+GF=h=pSt*B`h": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "5Tb||26w$^^xDyopXK[p"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "*j9p$1*X.%ab^L_?VOp!"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "sV2Lk~Q:wN-/0Hl*f0WA",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "Q-1=yc#poAAht%9]?aZe": {
                     "fields": {
                         "COSTUME": [
@@ -5418,7 +5742,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "Tr@Zr1nB5Gc_$:b?sX4A"
+                            "M(GoZ_Bi9t2+Qg/UB5Un"
                         ],
                         "SUBSTACK": [
                             2,
@@ -5517,6 +5841,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "S1~GfA2su-W`IE^M$F~R": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "kN+:KN=DL`P3p!4.v9z_",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "SN*$#ySWz^fk*(KrvN9j": {
                     "fields": {},
                     "inputs": {
@@ -5606,24 +5959,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Tr@Zr1nB5Gc_$:b?sX4A": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            2,
-                            "x7md-bB:iX5OX+%.p%=8"
-                        ],
-                        "OPERAND2": [
-                            2,
-                            "A-Liy:@(Ip{^`2^t]sNZ"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_or",
-                    "parent": "ROw`?y~@2AlCY2bZQpD:",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "UoP^.*X^#m`.^o_bqDfw": {
                     "fields": {},
                     "inputs": {
@@ -5653,30 +5988,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "U~7mr9Evnj|PJ]wuw]iV": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -391,
-                    "y": 104
-                },
                 "V-w1@cH8=3f@P9=,MM@.": {
                     "fields": {},
                     "inputs": {
@@ -5703,35 +6014,6 @@
                     "opcode": "sensing_keyoptions",
                     "parent": ".Rj|Ya%XVk{*26*mvE]|",
                     "shadow": true,
-                    "topLevel": false
-                },
-                "VM+nKX%;@Er/ulqo3kMx": {
-                    "fields": {},
-                    "inputs": {
-                        "NUM1": [
-                            3,
-                            [
-                                12,
-                                "META-JumpHeight",
-                                "pdCVYKcWd04BbT1R4+xC"
-                            ],
-                            [
-                                4,
-                                ""
-                            ]
-                        ],
-                        "NUM2": [
-                            1,
-                            [
-                                4,
-                                "100"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_divide",
-                    "parent": "xDAzd=@$A_D+qKR!D=(S",
-                    "shadow": false,
                     "topLevel": false
                 },
                 "VgFoW-nQrz7no:sXfiMx": {
@@ -5783,6 +6065,24 @@
                     "next": "1tqJEkbZ1,.#G]gKIf|Z",
                     "opcode": "data_changevariableby",
                     "parent": "D:XAvB`#!9IyGG;-w-mo",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "W1(6JW%;c4Y]3p{!W7yM": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "wy@(:n#34g1|=B3hTf)u"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            ";O07D6MDehP$F=|#LAaS"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "cSaVnmVf;$zpMBTkTD7t",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -5870,9 +6170,9 @@
                             "kTl#[fOPNRjFGrezlC!n"
                         ]
                     },
-                    "next": "{|c5`WvTvcB:,3L]s(m?",
+                    "next": null,
                     "opcode": "control_if",
-                    "parent": "JI`m+?Chb/o8pjcd1?9U",
+                    "parent": "CDeU9KU)Sip?B`,ahaMF",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6032,6 +6332,56 @@
                     "shadow": true,
                     "topLevel": false
                 },
+                "[=[249JhQE$W=6g?Oo#t": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "tmT,|v0uJ86=^A.Dsv76"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "AlG:g:l%dM?6IifI7Fkf"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "Dx}.{!yPu61.}47Y`-@Y",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "[@}i7!~D_uK%4hED4P!h": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "4po]x#(Ducx@fs3%Q:y)"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "9^8F)g[FNS2IL[9#;Rc-",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "[_V_q7vteq2L;?,BYuF+": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "9mpGK2Gn(l8nmhH}BfnA"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "d$NfWpHt,UN@=MgjXY?U"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "`1fN1AD@Sf+PO*s[eC;?",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "[t2r,!mq*jw8cH@ka|h]": {
                     "fields": {
                         "VARIABLE": [
@@ -6082,6 +6432,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "^!fm0H7,B,jA6L@lN8!s": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "-+W)v^:u+!l#D1mx}Nkx",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "^yCeO/E?U3p$_|Of!+D~": {
                     "fields": {},
                     "inputs": {
@@ -6119,6 +6498,24 @@
                     "next": null,
                     "opcode": "control_if",
                     "parent": "EhWESUx22/0@0l@5+DLC",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "_7)]2Gut1R+s[JdVjP5G": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "CD+lTpDnWQXg,4Pl*o6i"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "4-n]w4($RylOFG5BSkkN"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "G)[jujfKw%/.C}W)kIWW",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6223,7 +6620,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "9mpGK2Gn(l8nmhH}BfnA"
+                            "[_V_q7vteq2L;?,BYuF+"
                         ]
                     },
                     "next": "oBTf$3v+L#)g[vK_v:?6",
@@ -6319,6 +6716,29 @@
                     "parent": "2SS2QRar=DmAf*pWqX,d",
                     "shadow": false,
                     "topLevel": false
+                },
+                "aolss+U^_cbM1Tq.krE:": {
+                    "fields": {},
+                    "inputs": {
+                        "SUBSTACK": [
+                            1,
+                            null
+                        ],
+                        "TIMES": [
+                            1,
+                            [
+                                6,
+                                "10"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "control_repeat",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -1324,
+                    "y": 1594
                 },
                 "b!i{,[Qsu(.yfqcRlsa2": {
                     "fields": {},
@@ -6422,7 +6842,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "qDs@K^%4BSojieo[t/iH"
+                            "W1(6JW%;c4Y]3p{!W7yM"
                         ],
                         "SUBSTACK": [
                             2,
@@ -6475,6 +6895,20 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "W:O[w7,fT$Q9ZZ3c^#yp",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "d$NfWpHt,UN@=MgjXY?U": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "{C!*~6^-N3l|Q0NP7E6z"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "[_V_q7vteq2L;?,BYuF+",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6610,35 +7044,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "eXGc$#[ua/yO:Rv^qqxu": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "BottomFreezeWant",
-                                "fHy3L:`-0(qf)A]02#JL"
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "(Ws|5868/=FL:0x{@JNB",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "e^.Cy01K_k?PQK12!@0T": {
                     "fields": {},
                     "inputs": {
@@ -6665,6 +7070,35 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "y3J`@::mT]F2J(k8I@Os",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "fPX|$i}!cZ9cBqNQdKoH": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "4-n]w4($RylOFG5BSkkN",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -6775,35 +7209,6 @@
                     "opcode": "sensing_keyoptions",
                     "parent": "WFLT*gL:qZJ~R4873u-q",
                     "shadow": true,
-                    "topLevel": false
-                },
-                "g~#[64|tH~U}}~lvg$M2": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "Yfreeze",
-                                ":cP7H*N@F!!UzzPUd]$("
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "sV2Lk~Q:wN-/0Hl*f0WA",
-                    "shadow": false,
                     "topLevel": false
                 },
                 "h_4+}cN5N;gFHE.OMj3[": {
@@ -6979,6 +7384,24 @@
                     "next": null,
                     "opcode": "control_repeat_until",
                     "parent": "3#zDt/~nY}c;%X!s)x`J",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "kN+:KN=DL`P3p!4.v9z_": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "S1~GfA2su-W`IE^M$F~R"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "-+W)v^:u+!l#D1mx}Nkx"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": ";?r[G0CLfL)dfMXYa{Vh",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -7371,6 +7794,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "nVI)ui?xW/8f7HUgD^+b": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            3,
+                            [
+                                12,
+                                "META-JumpHeight",
+                                "pdCVYKcWd04BbT1R4+xC"
+                            ],
+                            [
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            1,
+                            [
+                                4,
+                                "100"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_divide",
+                    "parent": "JT[4|!AIXIf?M.ThsO|p",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "nn7C{%@CE_Rllo9k($i(": {
                     "fields": {},
                     "inputs": {
@@ -7394,7 +7846,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "(Ws|5868/=FL:0x{@JNB"
+                            "9^8F)g[FNS2IL[9#;Rc-"
                         ],
                         "SUBSTACK": [
                             2,
@@ -7613,9 +8065,11 @@
                     },
                     "next": null,
                     "opcode": "operator_or",
-                    "parent": "cSaVnmVf;$zpMBTkTD7t",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 12,
+                    "y": 1787
                 },
                 "qHhRzG%)r,6;XoP%2)g{": {
                     "fields": {},
@@ -7653,9 +8107,11 @@
                     },
                     "next": null,
                     "opcode": "operator_equals",
-                    "parent": "Dx}.{!yPu61.}47Y`-@Y",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 42,
+                    "y": 1719
                 },
                 "qt1J5b)^7Hv^$2CTpvKh": {
                     "fields": {},
@@ -7803,7 +8259,7 @@
                     "inputs": {
                         "CONDITION": [
                             2,
-                            "g~#[64|tH~U}}~lvg$M2"
+                            "PV`~~Uc+GF=h=pSt*B`h"
                         ]
                     },
                     "next": "ROw`?y~@2AlCY2bZQpD:",
@@ -7832,6 +8288,35 @@
                     "next": ";axvt9}uD?y#qDh(%o9j",
                     "opcode": "data_setvariableto",
                     "parent": "?2,pUMiTazG^cT.^Gv|@",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "tmT,|v0uJ86=^A.Dsv76": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "[=[249JhQE$W=6g?Oo#t",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -7983,6 +8468,57 @@
                     "shadow": true,
                     "topLevel": false
                 },
+                "vvJdvnK(:m;4%MM#=XtN": {
+                    "fields": {
+                        "VARIABLE": [
+                            "SpaceLetGo",
+                            "SkuHyK@Q-XA1IVN}4dV+"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": ")Gv^1O6Qqxi9CMY4`w#c",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "w73]A*A!l-hMezRCBuc]": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "M(GoZ_Bi9t2+Qg/UB5Un",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "wC*q/Ayq[g;T]EFpV3Hq": {
                     "fields": {},
                     "inputs": {
@@ -8012,6 +8548,35 @@
                     "next": null,
                     "opcode": "control_forever",
                     "parent": "n*;=o0B@kUX_%,b;$Qgp",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "wy@(:n#34g1|=B3hTf)u": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "Yfreeze",
+                                ":cP7H*N@F!!UzzPUd]$("
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "W1(6JW%;c4Y]3p{!W7yM",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -8057,9 +8622,11 @@
                     },
                     "next": null,
                     "opcode": "operator_equals",
-                    "parent": "(Ws|5868/=FL:0x{@JNB",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": -1672,
+                    "y": 1482
                 },
                 "x,LHx=p6Ph]lU-$[A4{Z": {
                     "fields": {},
@@ -8104,35 +8671,6 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "x7md-bB:iX5OX+%.p%=8": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "Yfreeze",
-                                ":cP7H*N@F!!UzzPUd]$("
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_equals",
-                    "parent": "Tr@Zr1nB5Gc_$:b?sX4A",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "x8J=Olo;FLrzVX@BGrgT": {
                     "fields": {},
                     "inputs": {
@@ -8151,28 +8689,32 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "xDAzd=@$A_D+qKR!D=(S": {
+                "xvrG!J}B1)QKH|3zI#UB": {
                     "fields": {},
                     "inputs": {
-                        "NUM1": [
-                            1,
+                        "OPERAND1": [
+                            3,
                             [
-                                4,
-                                "10"
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
                             ]
                         ],
-                        "NUM2": [
-                            3,
-                            "VM+nKX%;@Er/ulqo3kMx",
+                        "OPERAND2": [
+                            1,
                             [
-                                4,
-                                ""
+                                10,
+                                "0"
                             ]
                         ]
                     },
                     "next": null,
-                    "opcode": "operator_multiply",
-                    "parent": "=u8F^5%I3*QF(2]9G|J1",
+                    "opcode": "operator_equals",
+                    "parent": "{wZW0aH-6*D_yBt-aN;p",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -8374,6 +8916,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "{C!*~6^-N3l|Q0NP7E6z": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "d$NfWpHt,UN@=MgjXY?U",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "{e{NMZRYJ8qlVYT.uTzM": {
                     "fields": {},
                     "inputs": {},
@@ -8385,6 +8956,20 @@
                     "x": -132,
                     "y": 1387
                 },
+                "{wZW0aH-6*D_yBt-aN;p": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "xvrG!J}B1)QKH|3zI#UB"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_not",
+                    "parent": "M(GoZ_Bi9t2+Qg/UB5Un",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "{|c5`WvTvcB:,3L]s(m?": {
                     "fields": {},
                     "inputs": {
@@ -8394,7 +8979,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "=u8F^5%I3*QF(2]9G|J1"
+                            "J+!$pz{gLsZ@,ZM[q945"
                         ],
                         "SUBSTACK2": [
                             2,
@@ -8403,7 +8988,7 @@
                     },
                     "next": "CDeU9KU)Sip?B`,ahaMF",
                     "opcode": "control_if_else",
-                    "parent": "Wo`cWLKJ#kozU:iOWi[p",
+                    "parent": "JI`m+?Chb/o8pjcd1?9U",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -8632,6 +9217,35 @@
                     "shadow": true,
                     "topLevel": false
                 },
+                "~WDoghi@Nc64PmXSpOGC": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "BottomFreezeWant",
+                                "fHy3L:`-0(qf)A]02#JL"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": ";O07D6MDehP$F=|#LAaS",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "~[!LpYvv18t)3~AYMt}2": {
                     "fields": {
                         "KEY_OPTION": [
@@ -8784,7 +9398,7 @@
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
-                    10
+                    "0"
                 ],
                 "khDX:D*O}L(wn[u#SF+%": [
                     "LocalFloorCloneData",
@@ -8793,8 +9407,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -105,
-            "y": -143.6
+            "x": -215,
+            "y": -144.0100004
         },
         {
             "blocks": {
@@ -8912,32 +9526,6 @@
                     "next": null,
                     "opcode": "data_changevariableby",
                     "parent": "^sP[XDGbD(n[3$ke|m^Q",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "$03Ta$hF%n9GrAMO2Ny]": {
-                    "fields": {},
-                    "inputs": {
-                        "NUM1": [
-                            3,
-                            "2+w%]|0K}mPPJdFh@!Rl",
-                            [
-                                4,
-                                ""
-                            ]
-                        ],
-                        "NUM2": [
-                            3,
-                            "^I/`sR0Vf0jg{dgMW[Sy",
-                            [
-                                4,
-                                ""
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_add",
-                    "parent": "625*-pPTu0H4*2.xBf8D",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9061,6 +9649,15 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "-gh1!y{:I#3N#/DY0|[t",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ")+AISN=Xe!7P6/PV/bK;": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "motion_yposition",
+                    "parent": "N?T5[fR0c?/clfqnO-WT",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9273,6 +9870,24 @@
                     "next": null,
                     "opcode": "operator_or",
                     "parent": "!x%-0~+f~7`|jyb[!:;n",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ".@ms2c?Yuh--LzQ(xdws": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "motion_yposition",
+                    "parent": "zwO|L!eXUuSl(|Kj!jjG",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ".m8;{zlhTWscld?TG|h*": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "motion_yposition",
+                    "parent": "63u7zJw.Uo]YSx~58Nhq",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9528,15 +10143,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "2+w%]|0K}mPPJdFh@!Rl": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": null,
-                    "opcode": "motion_yposition",
-                    "parent": "$03Ta$hF%n9GrAMO2Ny]",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "24m;_@Ae#^U5MDaGGVrf": {
                     "fields": {
                         "LIST": [
@@ -9683,15 +10289,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "5#^|Ce_3.0=hoHmj}oa{": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": "@{DsNw-/iPWJ~zJw06!C",
-                    "opcode": "looks_hide",
-                    "parent": "kg1WlT1qcfl]kU9jK-=4",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "5@gakzx`X#r7GyD^8)|`": {
                     "fields": {
                         "COSTUME": [
@@ -9719,7 +10316,7 @@
                         ],
                         "NUM2": [
                             3,
-                            "R{MTZo88w~aoB_]PcKy[",
+                            ":x;:-z9$[0Oy^{=?.9,P",
                             [
                                 4,
                                 ""
@@ -9728,7 +10325,7 @@
                     },
                     "next": null,
                     "opcode": "operator_add",
-                    "parent": "l4l14WX#77k8jj[p0hta",
+                    "parent": "?fAaK:a[~Jd/WNobCnP!",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9786,26 +10383,29 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "625*-pPTu0H4*2.xBf8D": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
+                "63u7zJw.Uo]YSx~58Nhq": {
+                    "fields": {},
                     "inputs": {
-                        "VALUE": [
+                        "NUM1": [
                             3,
-                            "$03Ta$hF%n9GrAMO2Ny]",
+                            ".m8;{zlhTWscld?TG|h*",
                             [
-                                10,
-                                "0"
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "PZyu({/_Iku2eh5t6?p(",
+                            [
+                                4,
+                                ""
                             ]
                         ]
                     },
                     "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "_B3Ed4X|9o*itZOC2t=b",
+                    "opcode": "operator_add",
+                    "parent": "}cV#(6pHdjFbSL4m4n8G",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -9860,8 +10460,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": 92,
-                    "y": 1264
+                    "x": 0,
+                    "y": 872
                 },
                 "6cfyv_:viqzK4ZrmN_l/": {
                     "fields": {},
@@ -9957,6 +10557,29 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "p-EY+lba,ig]wK.!j)~O",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "8S6bD:b+79p+=yEOt?U1": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "He0,!*RareVAS^Fw/n!;",
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": "LZcnr-TztSo=5dne*yGK",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -10122,6 +10745,31 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ":c.o#y`wk/?+{;6[~-69": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "-13.984296939999999999999"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "M+%)5Tx+Q|a;wamY!*}a",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_add",
+                    "parent": "ms;Ex-19_,`;3OlQux:x",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 ":x;:-z9$[0Oy^{=?.9,P": {
                     "fields": {},
                     "inputs": {
@@ -10143,7 +10791,7 @@
                     },
                     "next": null,
                     "opcode": "operator_add",
-                    "parent": "R{MTZo88w~aoB_]PcKy[",
+                    "parent": "5gf.{!.2cbmyoH(Wq{2e",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -10298,6 +10946,31 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "=YH6`tG7}=scI,RW1;CK": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "14.4573543"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "V%lioM5~q{sN|RZN}1U/",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_add",
+                    "parent": "HH4c$dc{,=|_qDQX*1kc",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "?.SBg0E4z)MmISoh@xcW": {
                     "fields": {},
                     "inputs": {
@@ -10376,6 +11049,29 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "?fAaK:a[~Jd/WNobCnP!": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "5gf.{!.2cbmyoH(Wq{2e",
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": "ITQ147~8H]9Mh{u.{;0z",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "@-DV9.OcT6S`TG^uO2!h": {
                     "fields": {},
                     "inputs": {
@@ -10398,7 +11094,7 @@
                     },
                     "next": null,
                     "opcode": "operator_add",
-                    "parent": "U|iF;09I$0IsMrAu9q]e",
+                    "parent": "XdG|gSrfH}N*CyeZt;s]",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -10483,20 +11179,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "@{DsNw-/iPWJ~zJw06!C": {
-                    "fields": {},
-                    "inputs": {
-                        "SUBSTACK": [
-                            2,
-                            "ICSOPL%|a*j_]h:9P4=`"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_forever",
-                    "parent": "5#^|Ce_3.0=hoHmj}oa{",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "A?z+?QYFTfDen1EP%I0=": {
                     "fields": {},
                     "inputs": {
@@ -10532,7 +11214,7 @@
                         ],
                         "OPERAND2": [
                             3,
-                            "Y+O`RO2J;1ai{R7Z^|Fd",
+                            "zwO|L!eXUuSl(|Kj!jjG",
                             [
                                 10,
                                 "50"
@@ -10542,35 +11224,6 @@
                     "next": null,
                     "opcode": "operator_lt",
                     "parent": "B|h]//024Fn::7?=}MX6",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "Bsz^bp%v5}i3jA/c3=@b": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            3,
-                            [
-                                12,
-                                "yLocation",
-                                "-W$x2LuW]V_DWa5KRHDb"
-                            ],
-                            [
-                                10,
-                                ""
-                            ]
-                        ],
-                        "OPERAND2": [
-                            1,
-                            [
-                                10,
-                                "167"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_gt",
-                    "parent": "ICSOPL%|a*j_]h:9P4=`",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -10589,6 +11242,28 @@
                     "next": null,
                     "opcode": "operator_and",
                     "parent": "*Tn=s=A,oO0Eu!|]-l2H",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "C:*DPkl?V|{H{i|T{OrM": {
+                    "fields": {
+                        "LIST": [
+                            "localFloorData",
+                            "p~gtd`(HOdU`iHPTnXGo"
+                        ]
+                    },
+                    "inputs": {
+                        "INDEX": [
+                            1,
+                            [
+                                7,
+                                "3"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_itemoflist",
+                    "parent": "V%lioM5~q{sN|RZN}1U/",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11036,6 +11711,31 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "HH4c$dc{,=|_qDQX*1kc": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "=YH6`tG7}=scI,RW1;CK",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": "zwO|L!eXUuSl(|Kj!jjG",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "HS.#Jhg|jWZ8SE}T(RCu": {
                     "fields": {},
                     "inputs": {
@@ -11087,25 +11787,7 @@
                     },
                     "next": null,
                     "opcode": "operator_add",
-                    "parent": "R;_Epo-~!aNQp;6656)H",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "ICSOPL%|a*j_]h:9P4=`": {
-                    "fields": {},
-                    "inputs": {
-                        "CONDITION": [
-                            2,
-                            "Bsz^bp%v5}i3jA/c3=@b"
-                        ],
-                        "SUBSTACK": [
-                            2,
-                            "i;Yv%{(cS!rdkY11/Xc6"
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_if",
-                    "parent": "@{DsNw-/iPWJ~zJw06!C",
+                    "parent": "8S6bD:b+79p+=yEOt?U1",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11116,7 +11798,7 @@
                             1,
                             [
                                 4,
-                                "0.169426457"
+                                "0.165326453"
                             ]
                         ],
                         "NUM2": [
@@ -11143,7 +11825,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "l4l14WX#77k8jj[p0hta"
+                            "?fAaK:a[~Jd/WNobCnP!"
                         ]
                     },
                     "next": null,
@@ -11211,7 +11893,7 @@
                     "shadow": false,
                     "topLevel": true,
                     "x": 0,
-                    "y": 360
+                    "y": 0
                 },
                 "JzQu^9#ePNE56|hMg:Om": {
                     "fields": {},
@@ -11407,7 +12089,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "R;_Epo-~!aNQp;6656)H"
+                            "8S6bD:b+79p+=yEOt?U1"
                         ]
                     },
                     "next": null,
@@ -11427,6 +12109,31 @@
                     "next": "2)!q;LnBYQbc~y|V81-V",
                     "opcode": "data_deletealloflist",
                     "parent": "p%{@ss-v+e5XwAI8jtq*",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "M+%)5Tx+Q|a;wamY!*}a": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "-0.174380204"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "^N/{G`HTxr(0-ZV.dX@?",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": ":c.o#y`wk/?+{;6[~-69",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11453,12 +12160,29 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "N4=%bq.AQ`myn?mC])6O": {
+                "N?T5[fR0c?/clfqnO-WT": {
                     "fields": {},
-                    "inputs": {},
+                    "inputs": {
+                        "NUM1": [
+                            3,
+                            ")+AISN=Xe!7P6/PV/bK;",
+                            [
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "ms;Ex-19_,`;3OlQux:x",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
                     "next": null,
-                    "opcode": "motion_yposition",
-                    "parent": "^U1#md78ZiRc@@7F1;Y)",
+                    "opcode": "operator_add",
+                    "parent": "j`N_ZWx0fn).jv3h9zMc",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11549,7 +12273,7 @@
                     },
                     "next": null,
                     "opcode": "operator_add",
-                    "parent": "^I/`sR0Vf0jg{dgMW[Sy",
+                    "parent": "63u7zJw.Uo]YSx~58Nhq",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11690,29 +12414,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "R;_Epo-~!aNQp;6656)H": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            3,
-                            "He0,!*RareVAS^Fw/n!;",
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "LZcnr-TztSo=5dne*yGK",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "ROKoeg[Z{)wBNBg[%%CJ": {
                     "fields": {},
                     "inputs": {
@@ -11775,31 +12476,6 @@
                     "next": null,
                     "opcode": "operator_multiply",
                     "parent": "eUO)U(OUGZBdS546t%:9",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "R{MTZo88w~aoB_]PcKy[": {
-                    "fields": {},
-                    "inputs": {
-                        "NUM1": [
-                            1,
-                            [
-                                4,
-                                "1"
-                            ]
-                        ],
-                        "NUM2": [
-                            3,
-                            ":x;:-z9$[0Oy^{=?.9,P",
-                            [
-                                4,
-                                ""
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_multiply",
-                    "parent": "5gf.{!.2cbmyoH(Wq{2e",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -11878,29 +12554,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "U|iF;09I$0IsMrAu9q]e": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            3,
-                            "@-DV9.OcT6S`TG^uO2!h",
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "v0KSEef!7K6}WbI6,WIt",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "U}H#,6y$QFYk.x@rWXWr": {
                     "fields": {},
                     "inputs": {
@@ -11923,6 +12576,31 @@
                     "next": null,
                     "opcode": "operator_multiply",
                     "parent": "exq)v~8(##W#-LTe!n~y",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "V%lioM5~q{sN|RZN}1U/": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "0.169426457"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "C:*DPkl?V|{H{i|T{OrM",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": "=YH6`tG7}=scI,RW1;CK",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -12027,37 +12705,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "XdG|gSrfH}N*CyeZt;s]": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "@-DV9.OcT6S`TG^uO2!h",
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": "v0KSEef!7K6}WbI6,WIt",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "X~Q0@ho~j?D2[n}x%fG=": {
                     "fields": {},
                     "inputs": {},
                     "next": "G+)tt=s(j8~T?mpoxrso",
                     "opcode": "looks_hide",
                     "parent": "J!tA39`F,+qjZg:J(*gG",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "Y+O`RO2J;1ai{R7Z^|Fd": {
-                    "fields": {},
-                    "inputs": {
-                        "NUM1": [
-                            3,
-                            "{Nl.a2b1/4F}%(FVNa99",
-                            [
-                                4,
-                                ""
-                            ]
-                        ],
-                        "NUM2": [
-                            1,
-                            [
-                                4,
-                                "-3200"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_subtract",
-                    "parent": "Bin[j_+h8NE.RI]FbaCi",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -12253,53 +12929,25 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "^I/`sR0Vf0jg{dgMW[Sy": {
-                    "fields": {},
+                "^N/{G`HTxr(0-ZV.dX@?": {
+                    "fields": {
+                        "LIST": [
+                            "localFloorData",
+                            "p~gtd`(HOdU`iHPTnXGo"
+                        ]
+                    },
                     "inputs": {
-                        "NUM1": [
+                        "INDEX": [
                             1,
                             [
-                                4,
-                                "1"
-                            ]
-                        ],
-                        "NUM2": [
-                            3,
-                            "PZyu({/_Iku2eh5t6?p(",
-                            [
-                                4,
-                                ""
+                                7,
+                                "3"
                             ]
                         ]
                     },
                     "next": null,
-                    "opcode": "operator_multiply",
-                    "parent": "$03Ta$hF%n9GrAMO2Ny]",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "^U1#md78ZiRc@@7F1;Y)": {
-                    "fields": {},
-                    "inputs": {
-                        "NUM1": [
-                            3,
-                            "N4=%bq.AQ`myn?mC])6O",
-                            [
-                                4,
-                                ""
-                            ]
-                        ],
-                        "NUM2": [
-                            1,
-                            [
-                                4,
-                                "3100"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_subtract",
-                    "parent": "j`N_ZWx0fn).jv3h9zMc",
+                    "opcode": "data_itemoflist",
+                    "parent": "M+%)5Tx+Q|a;wamY!*}a",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -12334,7 +12982,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "625*-pPTu0H4*2.xBf8D"
+                            "}cV#(6pHdjFbSL4m4n8G"
                         ]
                     },
                     "next": null,
@@ -12365,8 +13013,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": 1407,
-                    "y": 5124
+                    "x": 0,
+                    "y": 5432
                 },
                 "`+N?:2WeDwvcKKN;,v9P": {
                     "fields": {
@@ -12920,28 +13568,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "i;Yv%{(cS!rdkY11/Xc6": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "167"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "ICSOPL%|a*j_]h:9P4=`",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "ilwJh#niwNKobU`bCEWP": {
                     "fields": {},
                     "inputs": {
@@ -12973,7 +13599,7 @@
                         ],
                         "OPERAND2": [
                             3,
-                            "^U1#md78ZiRc@@7F1;Y)",
+                            "N?T5[fR0c?/clfqnO-WT",
                             [
                                 10,
                                 "50"
@@ -13082,17 +13708,6 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "kg1WlT1qcfl]kU9jK-=4": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": "5#^|Ce_3.0=hoHmj}oa{",
-                    "opcode": "event_whenflagclicked",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": 0,
-                    "y": 0
-                },
                 "l#oo?$jMt=|NCkd8/%rO": {
                     "fields": {},
                     "inputs": {
@@ -13120,29 +13735,6 @@
                     "next": null,
                     "opcode": "operator_gt",
                     "parent": "A?z+?QYFTfDen1EP%I0=",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "l4l14WX#77k8jj[p0hta": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yLocation",
-                            "-W$x2LuW]V_DWa5KRHDb"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            3,
-                            "5gf.{!.2cbmyoH(Wq{2e",
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "ITQ147~8H]9Mh{u.{;0z",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13242,6 +13834,31 @@
                     "next": null,
                     "opcode": "data_changevariableby",
                     "parent": "^sP[XDGbD(n[3$ke|m^Q",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "ms;Ex-19_,`;3OlQux:x": {
+                    "fields": {},
+                    "inputs": {
+                        "NUM1": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            ":c.o#y`wk/?+{;6[~-69",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_multiply",
+                    "parent": "N?T5[fR0c?/clfqnO-WT",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -13364,7 +13981,7 @@
                     "shadow": false,
                     "topLevel": true,
                     "x": 0,
-                    "y": 5816
+                    "y": 6272
                 },
                 "p-EY+lba,ig]wK.!j)~O": {
                     "fields": {},
@@ -13644,7 +14261,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "U|iF;09I$0IsMrAu9q]e"
+                            "XdG|gSrfH}N*CyeZt;s]"
                         ]
                     },
                     "next": null,
@@ -14028,12 +14645,29 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "{Nl.a2b1/4F}%(FVNa99": {
+                "zwO|L!eXUuSl(|Kj!jjG": {
                     "fields": {},
-                    "inputs": {},
+                    "inputs": {
+                        "NUM1": [
+                            3,
+                            ".@ms2c?Yuh--LzQ(xdws",
+                            [
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            3,
+                            "HH4c$dc{,=|_qDQX*1kc",
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
                     "next": null,
-                    "opcode": "motion_yposition",
-                    "parent": "Y+O`RO2J;1ai{R7Z^|Fd",
+                    "opcode": "operator_add",
+                    "parent": "Bin[j_+h8NE.RI]FbaCi",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -14106,6 +14740,29 @@
                     "next": null,
                     "opcode": "data_changevariableby",
                     "parent": "GI2w333cVw,^D~Hmp6Q-",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "}cV#(6pHdjFbSL4m4n8G": {
+                    "fields": {
+                        "VARIABLE": [
+                            "yLocation",
+                            "-W$x2LuW]V_DWa5KRHDb"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "63u7zJw.Uo]YSx~58Nhq",
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": "_B3Ed4X|9o*itZOC2t=b",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -14248,7 +14905,7 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    0
+                    3
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
@@ -14256,7 +14913,7 @@
                 ],
                 "khDX:D*O}L(wn[u#SF+%": [
                     "LocalFloorCloneData",
-                    "0.-175.100.1"
+                    "220.-172.100.0"
                 ]
             },
             "visible": false,
@@ -16458,7 +17115,7 @@
                 ],
                 "FM%G![pT/9`Zd%8.pv4f": [
                     "LocalClimbCloneData",
-                    "255.0.100.3"
+                    "-7.63.100.1"
                 ],
                 "N.47=s-9#7U@wwWaugqq": [
                     "speedFall",
@@ -16466,7 +17123,7 @@
                 ],
                 "R[!KFSO0[w|8O^1t1w:9": [
                     "LocalLevel#",
-                    0
+                    3
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
@@ -17912,8 +18569,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -107,
-            "y": -117.6
+            "x": -217,
+            "y": -118.0100004
         },
         {
             "blocks": {
@@ -19036,8 +19693,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -80,
-            "y": -117.6
+            "x": -190,
+            "y": -118.0100004
         },
         {
             "blocks": {
@@ -19095,8 +19752,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": -273,
-                    "y": -279
+                    "x": -488,
+                    "y": -332
                 },
                 "/g+Xs]+2Onuw1ns+foM/": {
                     "fields": {},
@@ -19694,7 +20351,12 @@
                     },
                     "inputs": {
                         "VALUE": [
-                            1,
+                            3,
+                            [
+                                12,
+                                "META-JumpCount",
+                                "r9/Zw_=%h~#Eqkc1`_1x"
+                            ],
                             [
                                 10,
                                 "2"
@@ -20189,8 +20851,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -105,
-            "y": -160.6
+            "x": -215,
+            "y": -161.0100004
         },
         {
             "blocks": {
@@ -21187,7 +21849,7 @@
                     "rotationCenterY": 31.145603656768827
                 }
             ],
-            "currentCostume": 0,
+            "currentCostume": 3,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -21634,7 +22296,7 @@
                     },
                     "next": "VlGn4%z_UQpw-5Ioht:[",
                     "opcode": "control_wait_until",
-                    "parent": "@cAm@2=:X.kD_xT2DXzR",
+                    "parent": "Ax75?=_2rk*iujjbb[$g",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -22020,9 +22682,27 @@
                 "@cAm@2=:X.kD_xT2DXzR": {
                     "fields": {},
                     "inputs": {},
-                    "next": "4Geh#3_v:{`-xg^+psAf",
+                    "next": "Ax75?=_2rk*iujjbb[$g",
                     "opcode": "looks_show",
                     "parent": "::JMB|sqP1+~D|d[L5Ow",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Ax75?=_2rk*iujjbb[$g": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "VV2dS%+]o1}G40*0{tt!"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "e2MHT2odHa@Q~kwF_+D["
+                        ]
+                    },
+                    "next": "4Geh#3_v:{`-xg^+psAf",
+                    "opcode": "control_if",
+                    "parent": "@cAm@2=:X.kD_xT2DXzR",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -22509,6 +23189,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "VV2dS%+]o1}G40*0{tt!": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            1,
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            3,
+                            [
+                                12,
+                                "DEATH-ALL",
+                                "h)%_BF-]!;?1[=/K=0Sl"
+                            ],
+                            [
+                                10,
+                                "50"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "Ax75?=_2rk*iujjbb[$g",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "VlGn4%z_UQpw-5Ioht:[": {
                     "fields": {},
                     "inputs": {},
@@ -22786,6 +23495,15 @@
                     "next": null,
                     "opcode": "data_setvariableto",
                     "parent": "fI=Qgq9{mUR2WFp|N.Rl",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "e2MHT2odHa@Q~kwF_+D[": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "looks_hide",
+                    "parent": "Ax75?=_2rk*iujjbb[$g",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -23643,7 +24361,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    0
+                    3
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -23651,7 +24369,7 @@
                 ],
                 "UqR7Ec/|z44ERz9aKR@F": [
                     "LocalDeathCloneData",
-                    ""
+                    "-78.-83.100.3"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -25545,7 +26263,7 @@
                     "rotationCenterY": 43.10355678118654
                 }
             ],
-            "currentCostume": 1,
+            "currentCostume": 0,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -25566,7 +26284,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -93,
             "y": 158
@@ -27639,7 +28357,7 @@
                 ],
                 "zbn2.;|434HSgjp+Y=qe": [
                     "LocalLevel#",
-                    0
+                    3
                 ]
             },
             "visible": false,
@@ -27894,7 +28612,12 @@
                     },
                     "inputs": {
                         "VALUE": [
-                            1,
+                            3,
+                            [
+                                12,
+                                "META-JumpCount",
+                                "r9/Zw_=%h~#Eqkc1`_1x"
+                            ],
                             [
                                 10,
                                 "2"
@@ -28414,8 +29137,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -105,
-            "y": -131.6
+            "x": -215,
+            "y": -132.0100004
         },
         {
             "blocks": {
@@ -31296,13 +32019,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "X(O1~bwoT5j[BIe!o%`4": [
-                    12,
-                    "META-StartLoc",
-                    "]}%[`M=@eK3*yDJFb3P!",
-                    -1662,
-                    2615
-                ],
                 "X@{lG{_-kRJxDhLC]@N%": {
                     "fields": {},
                     "inputs": {
@@ -32139,6 +32855,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "hI,_W[XZBhA0%H`Vu)L[": [
+                    12,
+                    "META-StartLoc",
+                    "]}%[`M=@eK3*yDJFb3P!",
+                    -1662,
+                    2615
+                ],
                 "iG++K*A75x7`Js,_|=8s": {
                     "fields": {},
                     "inputs": {
@@ -33448,7 +34171,7 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    0
+                    3
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -36461,7 +37184,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    0
+                    3
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
@@ -36610,47 +37333,16 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "6{duB@{+I^9ioi5H818Z": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ],
-                        "OPERAND2": [
-                            3,
-                            [
-                                12,
-                                "yFreezeWant",
-                                "9G{ck`TfEnTI_,Os]k*%"
-                            ],
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_gt",
-                    "parent": "~I}Ie!#b,#I1.fEAd!L*",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "A(hfD@lL1prkv#OB^_j@": {
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "OsO@%)9V5A?!ZLtu2H(N",
-                            null
+                            2,
+                            "OsO@%)9V5A?!ZLtu2H(N"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "6UAM{~twvS06-g35]RC@",
-                            null
+                            2,
+                            "6UAM{~twvS06-g35]RC@"
                         ]
                     },
                     "next": null,
@@ -36663,9 +37355,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "A(hfD@lL1prkv#OB^_j@",
-                            null
+                            2,
+                            "A(hfD@lL1prkv#OB^_j@"
                         ]
                     },
                     "next": null,
@@ -36673,17 +37364,6 @@
                     "parent": "tXCy`r*9_uZ0g|+TtJis",
                     "shadow": false,
                     "topLevel": false
-                },
-                "E#6gek:QRR7./%%K=D|i": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": "_aj94Y`NKI]lAWmCx~AX",
-                    "opcode": "event_whenflagclicked",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -170,
-                    "y": 545
                 },
                 "J4@vBu/(VCBhuOC}#0YJ": {
                     "fields": {},
@@ -36834,21 +37514,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "Y{qu]ErFa+:|X9]kg[Xi": {
-                    "fields": {},
-                    "inputs": {
-                        "SUBSTACK": [
-                            3,
-                            "~I}Ie!#b,#I1.fEAd!L*",
-                            null
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_forever",
-                    "parent": "_aj94Y`NKI]lAWmCx~AX",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "Z!#T0@zr{v(Pk~#MhMY-": {
                     "fields": {},
                     "inputs": {
@@ -36875,9 +37540,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "R*|rK1#I2iEo1od3K]ON",
-                            null
+                            2,
+                            "R*|rK1#I2iEo1od3K]ON"
                         ]
                     },
                     "next": null,
@@ -36886,27 +37550,25 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "_aj94Y`NKI]lAWmCx~AX": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yFreezeWant",
-                            "9G{ck`TfEnTI_,Os]k*%"
-                        ]
-                    },
+                "]0vH{WyPHt#(;!=-)IyP": {
+                    "fields": {},
                     "inputs": {
-                        "VALUE": [
+                        "CONDITION": [
+                            2,
+                            "hS00xeIM/.1{?JkP9M03"
+                        ],
+                        "SUBSTACK": [
                             1,
-                            [
-                                10,
-                                "0"
-                            ]
+                            null
                         ]
                     },
-                    "next": "Y{qu]ErFa+:|X9]kg[Xi",
-                    "opcode": "data_setvariableto",
-                    "parent": "E#6gek:QRR7./%%K=D|i",
+                    "next": null,
+                    "opcode": "control_if",
+                    "parent": null,
                     "shadow": false,
-                    "topLevel": false
+                    "topLevel": true,
+                    "x": 474,
+                    "y": 320
                 },
                 "a-Lr:5=AQ(}^A.YI%bqu": {
                     "fields": {},
@@ -36933,25 +37595,12 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "kwz2VIHCPN)RGP^G*cS!": {
-                    "fields": {
-                        "VARIABLE": [
-                            "Yfreeze",
-                            ":cP7H*N@F!!UzzPUd]$("
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
+                "hS00xeIM/.1{?JkP9M03": {
+                    "fields": {},
+                    "inputs": {},
                     "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "~I}Ie!#b,#I1.fEAd!L*",
+                    "opcode": "operator_not",
+                    "parent": "]0vH{WyPHt#(;!=-)IyP",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -37028,53 +37677,6 @@
                     "next": null,
                     "opcode": "operator_add",
                     "parent": "%pL,WlXpvz{/Cj])WC54",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "~I}Ie!#b,#I1.fEAd!L*": {
-                    "fields": {},
-                    "inputs": {
-                        "CONDITION": [
-                            3,
-                            "6{duB@{+I^9ioi5H818Z",
-                            null
-                        ],
-                        "SUBSTACK": [
-                            3,
-                            "kwz2VIHCPN)RGP^G*cS!",
-                            null
-                        ],
-                        "SUBSTACK2": [
-                            3,
-                            "~UTyCJiLF;NeOcdKQ?(4",
-                            null
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_if_else",
-                    "parent": "Y{qu]ErFa+:|X9]kg[Xi",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "~UTyCJiLF;NeOcdKQ?(4": {
-                    "fields": {
-                        "VARIABLE": [
-                            "Yfreeze",
-                            ":cP7H*N@F!!UzzPUd]$("
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "~I}Ie!#b,#I1.fEAd!L*",
                     "shadow": false,
                     "topLevel": false
                 }
@@ -37165,8 +37767,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -105,
-            "y": -150.6
+            "x": -215,
+            "y": -151.0100004
         },
         {
             "blocks": {
@@ -37284,9 +37886,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "^6^bL13s/BF44Bizp)){",
-                            null
+                            2,
+                            "^6^bL13s/BF44Bizp)){"
                         ]
                     },
                     "next": null,
@@ -37399,9 +38000,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "`qD8=Dk{kf2S|)Wtq%ua",
-                            null
+                            2,
+                            "`qD8=Dk{kf2S|)Wtq%ua"
                         ]
                     },
                     "next": null,
@@ -37473,28 +38073,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "[Vi:UCy)^mhH^z*(}tr=": {
-                    "fields": {
-                        "VARIABLE": [
-                            "Yfreeze",
-                            ":cP7H*N@F!!UzzPUd]$("
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "asaaP3Z;J}#A#j_WLrBF",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "[rDI|uP^=)JJ1ZjNUI`+": {
                     "fields": {},
                     "inputs": {},
@@ -37531,66 +38109,17 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "Ts3]KIFk|Oe7|O6+|gKO",
-                            null
+                            2,
+                            "Ts3]KIFk|Oe7|O6+|gKO"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "G2N_H6#z_mntJeiRTEBd",
-                            null
+                            2,
+                            "G2N_H6#z_mntJeiRTEBd"
                         ]
                     },
                     "next": null,
                     "opcode": "control_if",
                     "parent": "Wx]:s[np!t0R(om=a-`=",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "asaaP3Z;J}#A#j_WLrBF": {
-                    "fields": {},
-                    "inputs": {
-                        "CONDITION": [
-                            3,
-                            "d0Yq)5%^e^#ZmJ?eW=5=",
-                            null
-                        ],
-                        "SUBSTACK": [
-                            3,
-                            "p4sW7G2tX[_wdEVBD|g7",
-                            null
-                        ],
-                        "SUBSTACK2": [
-                            3,
-                            "[Vi:UCy)^mhH^z*(}tr=",
-                            null
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_if_else",
-                    "parent": "mH3,C(wJ.~i]1+w};ulS",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "bHbU;J#)RQxocx/CAwe!": {
-                    "fields": {
-                        "VARIABLE": [
-                            "yFreezeWant",
-                            "9G{ck`TfEnTI_,Os]k*%"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": "mH3,C(wJ.~i]1+w};ulS",
-                    "opcode": "data_setvariableto",
-                    "parent": "y{p~YA]Uh}[(Rjix91_)",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -37619,35 +38148,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "d0Yq)5%^e^#ZmJ?eW=5=": {
-                    "fields": {},
-                    "inputs": {
-                        "OPERAND1": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ],
-                        "OPERAND2": [
-                            3,
-                            [
-                                12,
-                                "yFreezeWant",
-                                "9G{ck`TfEnTI_,Os]k*%"
-                            ],
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "operator_gt",
-                    "parent": "asaaP3Z;J}#A#j_WLrBF",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "kx.nB0+wb.0#]kJ,werv": {
                     "fields": {},
                     "inputs": {
@@ -37663,21 +38163,6 @@
                     "next": null,
                     "opcode": "motion_sety",
                     "parent": "9w91.SOqH+GeAo`P[5:~",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "mH3,C(wJ.~i]1+w};ulS": {
-                    "fields": {},
-                    "inputs": {
-                        "SUBSTACK": [
-                            3,
-                            "asaaP3Z;J}#A#j_WLrBF",
-                            null
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "control_forever",
-                    "parent": "bHbU;J#)RQxocx/CAwe!",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -37702,39 +38187,6 @@
                     "parent": ":u!-%|sOS_lPU_bc[9Yp",
                     "shadow": false,
                     "topLevel": false
-                },
-                "p4sW7G2tX[_wdEVBD|g7": {
-                    "fields": {
-                        "VARIABLE": [
-                            "Yfreeze",
-                            ":cP7H*N@F!!UzzPUd]$("
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "0"
-                            ]
-                        ]
-                    },
-                    "next": null,
-                    "opcode": "data_setvariableto",
-                    "parent": "asaaP3Z;J}#A#j_WLrBF",
-                    "shadow": false,
-                    "topLevel": false
-                },
-                "y{p~YA]Uh}[(Rjix91_)": {
-                    "fields": {},
-                    "inputs": {},
-                    "next": "bHbU;J#)RQxocx/CAwe!",
-                    "opcode": "event_whenflagclicked",
-                    "parent": null,
-                    "shadow": false,
-                    "topLevel": true,
-                    "x": -170,
-                    "y": 545
                 },
                 "|.QN7WZC#a[K(R~F8z.^": {
                     "fields": {},
@@ -37852,8 +38304,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -105,
-            "y": -135.6
+            "x": -215,
+            "y": -136.0100004
         }
     ]
 }
