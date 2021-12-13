@@ -190,7 +190,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 2,
+            "value": 4,
             "visible": true,
             "width": 0,
             "x": 5,
@@ -316,7 +316,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
+            "value": 3,
             "visible": true,
             "width": 0,
             "x": 366,
@@ -1621,7 +1621,7 @@
                 "97|x(C2e/+O{abGSjIW9": [
                     "DeathData",
                     [
-                        "-78.-83.100.3"
+                        "-78.-83.100.5"
                     ]
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
@@ -1634,7 +1634,7 @@
                 "B^fv_s|%j)%[[f~glF@V": [
                     "FloorData",
                     [
-                        "-24.-175.100.4",
+                        "-25.-175.100.1",
                         "205.-172.100.0",
                         "220.-172.100.0"
                     ]
@@ -1646,7 +1646,7 @@
                 "n@J3cmZzr@Z_71#r8qfh": [
                     "climbData",
                     [
-                        ""
+                        "-7.63.100.4"
                     ]
                 ]
             },
@@ -1687,7 +1687,7 @@
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
-                    -144.0100004
+                    -9.510000399999996
                 ],
                 "/]N5ma[TLCPBKLW]83)i": [
                     "BlocksY",
@@ -1711,19 +1711,19 @@
                 ],
                 "9G{ck`TfEnTI_,Os]k*%": [
                     "yFreezeWant",
-                    "0"
+                    1
                 ],
                 ":cP7H*N@F!!UzzPUd]$(": [
                     "Yfreeze",
-                    "0"
+                    "1"
                 ],
                 "?kg2eh#cPhe{|anpcFix": [
                     "Deaths",
-                    "0"
+                    3
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    ""
+                    "-7.63.100.4"
                 ],
                 "P=JtO4}B|Wc^aXJ|1zon": [
                     "BlocksHidden",
@@ -1735,7 +1735,7 @@
                 ],
                 "S6.8m33c%PwA9omGYyDL": [
                     "xLocation",
-                    -160
+                    -75
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
@@ -1755,7 +1755,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    2
+                    4
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -1763,7 +1763,7 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    "-24.-175.100.4,205.-172.100.0,220.-172.100.0"
+                    "-25.-175.100.1,205.-172.100.0,220.-172.100.0"
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
@@ -1771,11 +1771,11 @@
                 ],
                 "fHy3L:`-0(qf)A]02#JL": [
                     "BottomFreezeWant",
-                    "0"
+                    "1"
                 ],
                 "h)%_BF-]!;?1[=/K=0Sl": [
                     "DEATH-ALL",
-                    "-78.-83.100.3"
+                    "-78.-83.100.5"
                 ],
                 "jPo9_dtHj8_3(7ue`szU": [
                     "META-StartY",
@@ -1803,7 +1803,7 @@
                 ],
                 "p*tS!#X),Aq}Az8t=S.S": [
                     "jumpAvaliable",
-                    "2"
+                    "1"
                 ],
                 "pdCVYKcWd04BbT1R4+xC": [
                     "META-JumpHeight",
@@ -9277,7 +9277,7 @@
                     "rotationCenterY": 19.645791619092762
                 }
             ],
-            "currentCostume": 0,
+            "currentCostume": 1,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -9346,8 +9346,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -160,
-            "y": -144.0100004
+            "x": -75,
+            "y": -9.510000399999996
         },
         {
             "blocks": {
@@ -14844,7 +14844,7 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    2
+                    4
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
@@ -17054,7 +17054,7 @@
                 ],
                 "FM%G![pT/9`Zd%8.pv4f": [
                     "LocalClimbCloneData",
-                    ""
+                    "-7.63.100.4"
                 ],
                 "N.47=s-9#7U@wwWaugqq": [
                     "speedFall",
@@ -17062,7 +17062,7 @@
                 ],
                 "R[!KFSO0[w|8O^1t1w:9": [
                     "LocalLevel#",
-                    2
+                    4
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
@@ -18508,8 +18508,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -162,
-            "y": -118.0100004
+            "x": -77,
+            "y": 16.489999600000004
         },
         {
             "blocks": {
@@ -19632,8 +19632,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -135,
-            "y": -118.0100004
+            "x": -50,
+            "y": 16.489999600000004
         },
         {
             "blocks": {
@@ -20790,8 +20790,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -160,
-            "y": -161.0100004
+            "x": -75,
+            "y": -26.510000399999996
         },
         {
             "blocks": {
@@ -21788,7 +21788,7 @@
                     "rotationCenterY": 31.145603656768827
                 }
             ],
-            "currentCostume": 2,
+            "currentCostume": 3,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -21809,7 +21809,7 @@
                 }
             ],
             "variables": {},
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -36,
             "y": 37
@@ -24300,7 +24300,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    2
+                    4
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -24308,7 +24308,7 @@
                 ],
                 "UqR7Ec/|z44ERz9aKR@F": [
                     "LocalDeathCloneData",
-                    "-78.-83.100.3"
+                    "-78.-83.100.5"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -28406,7 +28406,7 @@
                 ],
                 "zbn2.;|434HSgjp+Y=qe": [
                     "LocalLevel#",
-                    2
+                    4
                 ]
             },
             "visible": false,
@@ -29186,8 +29186,8 @@
             "variables": {},
             "visible": true,
             "volume": 100,
-            "x": -160,
-            "y": -132.0100004
+            "x": -75,
+            "y": 2.4899996000000044
         },
         {
             "blocks": {
@@ -34220,7 +34220,7 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    2
+                    4
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
@@ -37233,7 +37233,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    2
+                    4
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
@@ -37816,8 +37816,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -160,
-            "y": -151.0100004
+            "x": -75,
+            "y": -16.510000399999996
         },
         {
             "blocks": {
@@ -38353,8 +38353,8 @@
             },
             "visible": true,
             "volume": 100,
-            "x": -160,
-            "y": -136.0100004
+            "x": -75,
+            "y": -1.5100003999999956
         }
     ]
 }
