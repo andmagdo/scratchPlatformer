@@ -102,7 +102,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 0,
+            "value": -95,
             "visible": false,
             "width": 0,
             "x": 5,
@@ -120,7 +120,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 150.57768266,
+            "value": -144.0100004,
             "visible": false,
             "width": 0,
             "x": 236,
@@ -190,7 +190,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "CustomLevelCreator",
+            "value": 0,
             "visible": false,
             "width": 0,
             "x": 5,
@@ -317,7 +317,7 @@
             "sliderMin": 0,
             "spriteName": null,
             "value": "0",
-            "visible": true,
+            "visible": false,
             "width": 0,
             "x": 366,
             "y": 0
@@ -1877,7 +1877,14 @@
                 "#H6P7#P5+tV7]_H%6NOV": [
                     "Metadata",
                     [
-                        ""
+                        "2",
+                        "100",
+                        "100",
+                        "-200.-142",
+                        "186.-128",
+                        "100",
+                        "100",
+                        "0"
                     ]
                 ],
                 "$Vn7S_zKtnXzpQ(LHTS]": [
@@ -1896,11 +1903,16 @@
                 ],
                 ";ritbE7B|5!mF,cn^GnC": [
                     "WallData",
-                    []
+                    [
+                        "-215.10.100.1",
+                        "260.24.100.1"
+                    ]
                 ],
                 "B^fv_s|%j)%[[f~glF@V": [
                     "FloorData",
-                    []
+                    [
+                        "0.-175.100.1"
+                    ]
                 ],
                 "P%14HUI:|X%tps*$ceJ,": [
                     "fullDecode",
@@ -1952,7 +1964,7 @@
                 ],
                 "(TlQ+fNaPA:X;wLTIwH4": [
                     "BottomTouchingGround",
-                    "0"
+                    "1"
                 ],
                 "(Wc%Wx,Mc/.]Kcn5?l(+": [
                     "customLevel",
@@ -1968,7 +1980,7 @@
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
-                    "-170"
+                    -144.0100004
                 ],
                 "/SXhl$ccuf,K5Zl:xF-N": [
                     "CharacterSaveLoc",
@@ -1980,7 +1992,7 @@
                 ],
                 "/`e~$4e~|=SaIn-k.{]R": [
                     "CustomMovementSpeed",
-                    0
+                    "100"
                 ],
                 "05YPksMY^/I;*ISje1,7": [
                     "BlocksX",
@@ -2012,7 +2024,7 @@
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    ""
+                    "-210.0.100.3,255.0.100.3"
                 ],
                 "Hj]et_8R8Q+OtVXCsKO+": [
                     "endSaveLoc",
@@ -2032,11 +2044,11 @@
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
-                    ""
+                    "-215.10.100.1,260.24.100.1"
                 ],
                 "Y2j)b2k(By8IMw,i|PRk": [
                     "META-ALL",
-                    ""
+                    "2,100,100,-200.-142,186.-128,100,100,0"
                 ],
                 "]Gf!_)td/M:(O(eOC*~i": [
                     "lvlTmp",
@@ -2048,7 +2060,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    "CustomLevelCreator"
+                    0
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -2056,7 +2068,7 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    ""
+                    "0.-175.100.1"
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
@@ -2080,7 +2092,7 @@
                 ],
                 "ll{r!`@uqT|Qzxn%fgW9": [
                     "TmpFallSpeed",
-                    "0"
+                    "100"
                 ],
                 "mu9K{V^`0jw.RX*$wq}~": [
                     "climbtmp",
@@ -2100,7 +2112,7 @@
                 ],
                 "pdCVYKcWd04BbT1R4+xC": [
                     "META-JumpHeight",
-                    ""
+                    "100"
                 ],
                 "q,TeV~IfU?p,|!T.CG#$": [
                     "customCreatorSize",
@@ -2108,7 +2120,7 @@
                 ],
                 "r9/Zw_=%h~#Eqkc1`_1x": [
                     "META-JumpCount",
-                    ""
+                    "2"
                 ],
                 "rbqSQ06Pkq+FSCiX4Uv+": [
                     "META-EndY",
@@ -2784,6 +2796,17 @@
                     "parent": "6pLO=55bbx[.RQQc#,Vj",
                     "shadow": false,
                     "topLevel": false
+                },
+                "++P{Ss-^o*yAQ:k|#MvE": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": null,
+                    "opcode": "motion_yposition",
+                    "parent": null,
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 1048,
+                    "y": 1498
                 },
                 "+2}f~n*Wbf(phgeq^2=E": {
                     "fields": {
@@ -7287,7 +7310,7 @@
                     "inputs": {},
                     "next": "WnqMdYgv8b/+hAQSv-[p",
                     "opcode": "sensing_setdragmode",
-                    "parent": "us5BlF:i`~cyO+RCq1#w",
+                    "parent": "j;AzH^%_E2{8hF5c6%8C",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -7682,6 +7705,15 @@
                     "opcode": "sensing_keyoptions",
                     "parent": "c6N;mnmr!9kfwxzK0HnH",
                     "shadow": true,
+                    "topLevel": false
+                },
+                "j;AzH^%_E2{8hF5c6%8C": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": "ciDdv:%-K0$t))uxo_Sq",
+                    "opcode": "looks_show",
+                    "parent": "us5BlF:i`~cyO+RCq1#w",
+                    "shadow": false,
                     "topLevel": false
                 },
                 "jDcnc4r69syR%)Q(!@zM": {
@@ -8688,6 +8720,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "tpzT713nJ:aR5LDUdD{G": [
+                    12,
+                    "yLocation",
+                    "-W$x2LuW]V_DWa5KRHDb",
+                    940,
+                    1506
+                ],
                 "u7Ss.I*aBJkg+NUo6mjF": {
                     "fields": {},
                     "inputs": {
@@ -8780,7 +8819,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "ciDdv:%-K0$t))uxo_Sq"
+                            "j;AzH^%_E2{8hF5c6%8C"
                         ],
                         "SUBSTACK2": [
                             2,
@@ -9787,9 +9826,9 @@
             ],
             "currentCostume": 0,
             "direction": 90,
-            "draggable": true,
+            "draggable": false,
             "isStage": false,
-            "layerOrder": 27,
+            "layerOrder": 28,
             "lists": {
                 "p~gtd`(HOdU`iHPTnXGo": [
                     "localFloorData",
@@ -9817,7 +9856,7 @@
                 ],
                 "N.47=s-9#7U@wwWaugqq": [
                     "speedFall",
-                    28466
+                    "1"
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
@@ -9852,9 +9891,9 @@
                     0
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
-            "x": -190,
+            "x": -200,
             "y": -144.0100004
         },
         {
@@ -15460,7 +15499,7 @@
             },
             "name": "GroundBlocks",
             "rotationStyle": "all around",
-            "size": 14.7847952313982,
+            "size": 100,
             "sounds": [
                 {
                     "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
@@ -15503,7 +15542,7 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    "CustomLevelCreator"
+                    0
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
@@ -15511,7 +15550,7 @@
                 ],
                 "khDX:D*O}L(wn[u#SF+%": [
                     "LocalFloorCloneData",
-                    ""
+                    "0.-175.100.1"
                 ]
             },
             "visible": false,
@@ -19296,7 +19335,7 @@
             "visible": true,
             "volume": 100,
             "x": -202,
-            "y": -144
+            "y": -118.0100004
         },
         {
             "blocks": {
@@ -20390,7 +20429,7 @@
             "visible": true,
             "volume": 100,
             "x": -175,
-            "y": -144
+            "y": -118.0100004
         },
         {
             "blocks": {
@@ -21582,7 +21621,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -181
+            "y": -161.0100004
         },
         {
             "blocks": {
@@ -22579,7 +22618,7 @@
                     "rotationCenterY": 31.145603656768827
                 }
             ],
-            "currentCostume": 2,
+            "currentCostume": 0,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -22600,7 +22639,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -36,
             "y": 37
@@ -25091,7 +25130,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    "CustomLevelCreator"
+                    0
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -27081,7 +27120,7 @@
                     "rotationCenterY": 51.38663220088628
                 }
             ],
-            "currentCostume": 1,
+            "currentCostume": 0,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -27127,7 +27166,7 @@
                     0
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 186,
             "y": -128
@@ -28202,7 +28241,7 @@
                     "rotationCenterY": 43.10355678118654
                 }
             ],
-            "currentCostume": 0,
+            "currentCostume": 1,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -28223,7 +28262,7 @@
                 }
             ],
             "variables": {},
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -93,
             "y": 158
@@ -30292,7 +30331,7 @@
                 ],
                 "zbn2.;|434HSgjp+Y=qe": [
                     "LocalLevel#",
-                    "CustomLevelCreator"
+                    0
                 ]
             },
             "visible": false,
@@ -31106,7 +31145,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -160
+            "y": -134.0100004
         },
         {
             "blocks": {
@@ -36308,11 +36347,11 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    "CustomLevelCreator"
+                    0
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
-                    5
+                    4
                 ],
                 "hK#I/IWs;ghhglh1*_1u": [
                     "MetaTmp",
@@ -37183,7 +37222,7 @@
             ],
             "currentCostume": 1,
             "direction": 90,
-            "draggable": true,
+            "draggable": false,
             "isStage": false,
             "layerOrder": 18,
             "lists": {},
@@ -37207,7 +37246,7 @@
                     10000
                 ]
             },
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": 54,
             "y": -29
@@ -39369,7 +39408,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    "CustomLevelCreator"
+                    0
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
@@ -39839,7 +39878,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -177
+            "y": -151.0100004
         },
         {
             "blocks": {
@@ -40291,7 +40330,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -162
+            "y": -136.0100004
         },
         {
             "blocks": {
@@ -43624,7 +43663,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 21,
+            "layerOrder": 23,
             "lists": {},
             "name": "GroundBlockLoc",
             "rotationStyle": "all around",
@@ -45277,7 +45316,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 23,
+            "layerOrder": 21,
             "lists": {},
             "name": "ClimbBlockLoc",
             "rotationStyle": "all around",
@@ -46899,7 +46938,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 24,
+            "layerOrder": 20,
             "lists": {},
             "name": "WallBlockLoc",
             "rotationStyle": "all around",
@@ -47804,7 +47843,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 25,
+            "layerOrder": 19,
             "lists": {},
             "name": "SaveButton",
             "rotationStyle": "all around",
@@ -48197,7 +48236,7 @@
             ],
             "currentCostume": 0,
             "direction": 90,
-            "draggable": true,
+            "draggable": false,
             "isStage": false,
             "layerOrder": 26,
             "lists": {},
@@ -48229,7 +48268,7 @@
                     3
                 ]
             },
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": 194,
             "y": -127
@@ -48602,7 +48641,7 @@
                     "shadow": false,
                     "topLevel": true,
                     "x": 626,
-                    "y": 49
+                    "y": 48
                 },
                 "pyy3]s(;i@_p1[=!l%.|": {
                     "fields": {
@@ -48703,9 +48742,9 @@
             ],
             "currentCostume": 0,
             "direction": 90,
-            "draggable": true,
+            "draggable": false,
             "isStage": false,
-            "layerOrder": 28,
+            "layerOrder": 27,
             "lists": {},
             "name": "PlayerLoc",
             "rotationStyle": "all around",
@@ -48735,7 +48774,7 @@
                     -90
                 ]
             },
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -165,
             "y": -106.99999999999999
@@ -49211,7 +49250,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 19,
+            "layerOrder": 25,
             "lists": {},
             "name": "SettingsSprite",
             "rotationStyle": "all around",
@@ -49721,7 +49760,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 20,
+            "layerOrder": 24,
             "lists": {},
             "name": "PlaySprite",
             "rotationStyle": "all around",
