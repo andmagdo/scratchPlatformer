@@ -316,8 +316,8 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": 15,
-            "visible": false,
+            "value": "0",
+            "visible": true,
             "width": 0,
             "x": 366,
             "y": 0
@@ -1931,14 +1931,7 @@
                 "#H6P7#P5+tV7]_H%6NOV": [
                     "Metadata",
                     [
-                        "2",
-                        "100",
-                        "100",
-                        "-200.-142",
-                        "186.-128",
-                        "100",
-                        "100",
-                        "0"
+                        ""
                     ]
                 ],
                 "$Vn7S_zKtnXzpQ(LHTS]": [
@@ -2021,7 +2014,7 @@
                 ],
                 "(TlQ+fNaPA:X;wLTIwH4": [
                     "BottomTouchingGround",
-                    "1"
+                    "0"
                 ],
                 ")5ld.YQv3)`srp]-17Sz": [
                     "META-JumpFlip",
@@ -2033,7 +2026,7 @@
                 ],
                 "-W$x2LuW]V_DWa5KRHDb": [
                     "yLocation",
-                    -144.0100004
+                    "-170"
                 ],
                 "/96!EL9J)fRxCa,^3+)g": [
                     "CustomJump#",
@@ -2089,7 +2082,7 @@
                 ],
                 "Ag3B-$qmX]==kLgAg;5,": [
                     "CLIMB-ALL",
-                    "-210.0.100.3,255.0.100.3"
+                    ""
                 ],
                 "Hj]et_8R8Q+OtVXCsKO+": [
                     "endSaveLoc",
@@ -2109,11 +2102,11 @@
                 ],
                 "TiX0~}#=:KMC.ww}dhZ2": [
                     "WALL-ALL",
-                    "-215.10.100.1,260.24.100.1"
+                    ""
                 ],
                 "Y2j)b2k(By8IMw,i|PRk": [
                     "META-ALL",
-                    "2,100,100,-200.-142,186.-128,100,100,0"
+                    ""
                 ],
                 "]Gf!_)td/M:(O(eOC*~i": [
                     "lvlTmp",
@@ -2125,7 +2118,7 @@
                 ],
                 "_v]f;T!v%+ONt[]cdA93": [
                     "level",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "`jEk@4|i[#Fk?(8x)AV.-my variable": [
                     "my variable",
@@ -2133,7 +2126,7 @@
                 ],
                 "d=ua.3)h;-Iw(/r`~Uai": [
                     "FLOOR-ALL",
-                    "0.-175.100.1"
+                    ""
                 ],
                 "e:R1t3J|bypyi8@$OEKL": [
                     "MaxLevel",
@@ -2177,7 +2170,7 @@
                 ],
                 "pdCVYKcWd04BbT1R4+xC": [
                     "META-JumpHeight",
-                    "100"
+                    ""
                 ],
                 "q,TeV~IfU?p,|!T.CG#$": [
                     "customCreatorSize",
@@ -2185,7 +2178,7 @@
                 ],
                 "r9/Zw_=%h~#Eqkc1`_1x": [
                     "META-JumpCount",
-                    "2"
+                    ""
                 ],
                 "rbqSQ06Pkq+FSCiX4Uv+": [
                     "META-EndY",
@@ -9893,7 +9886,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 28,
+            "layerOrder": 19,
             "lists": {
                 "p~gtd`(HOdU`iHPTnXGo": [
                     "localFloorData",
@@ -9921,7 +9914,7 @@
                 ],
                 "N.47=s-9#7U@wwWaugqq": [
                     "speedFall",
-                    "1"
+                    1152
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
@@ -9956,7 +9949,7 @@
                     0
                 ]
             },
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -200,
             "y": -144.0100004
@@ -15607,7 +15600,7 @@
                 ],
                 "YA2^iCl7~(!=[q4hdj4|": [
                     "LocalLevel#",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "bLDezI0iYSr;B:b?P[5K": [
                     "i",
@@ -18119,7 +18112,7 @@
                 ],
                 "R[!KFSO0[w|8O^1t1w:9": [
                     "LocalLevel#",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
@@ -19536,7 +19529,7 @@
             "visible": true,
             "volume": 100,
             "x": -202,
-            "y": -118.0100004
+            "y": -144
         },
         {
             "blocks": {
@@ -20630,7 +20623,7 @@
             "visible": true,
             "volume": 100,
             "x": -175,
-            "y": -118.0100004
+            "y": -144
         },
         {
             "blocks": {
@@ -21822,7 +21815,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -161.0100004
+            "y": -181
         },
         {
             "blocks": {
@@ -22840,7 +22833,7 @@
                 }
             ],
             "variables": {},
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": -36,
             "y": 37
@@ -25331,7 +25324,7 @@
                 ],
                 "S`MD~`U^X[nW?q:R:tHv": [
                     "LocalLevel#",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "UlfbZc@Q(W)QItWvH^(C": [
                     "i",
@@ -26129,6 +26122,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "H7VJ4g|MO!hv*uc6,OrV": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ],
+                        "OPERAND2": [
+                            3,
+                            [
+                                12,
+                                "level",
+                                "_v]f;T!v%+ONt[]cdA93"
+                            ],
+                            [
+                                10,
+                                "50"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_equals",
+                    "parent": "w*7%0=ha,J?Z/Y)qU!9,",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "HiFW0$BR%9;7!JW~Ffl#": {
                     "fields": {},
                     "inputs": {
@@ -26393,7 +26415,7 @@
                     },
                     "next": null,
                     "opcode": "operator_equals",
-                    "parent": "{1!GU(Ilnj.`I6_?,@#?",
+                    "parent": "w*7%0=ha,J?Z/Y)qU!9,",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -27120,12 +27142,30 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "{1!GU(Ilnj.`I6_?,@#?": {
+                "w*7%0=ha,J?Z/Y)qU!9,": {
                     "fields": {},
                     "inputs": {
                         "OPERAND1": [
                             2,
                             "XLg5tj%cNYFU:@:*H#.4"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "H7VJ4g|MO!hv*uc6,OrV"
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_or",
+                    "parent": "{1!GU(Ilnj.`I6_?,@#?",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "{1!GU(Ilnj.`I6_?,@#?": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "w*7%0=ha,J?Z/Y)qU!9,"
                         ],
                         "OPERAND2": [
                             2,
@@ -27367,7 +27407,7 @@
                     0
                 ]
             },
-            "visible": true,
+            "visible": false,
             "volume": 100,
             "x": 186,
             "y": -128
@@ -27714,7 +27754,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "RT:Qb6A![uaXUv_VUnri"
+                            "n`Fu$L^VzTz|XGAIwt%2"
                         ],
                         "SUBSTACK2": [
                             2,
@@ -27992,7 +28032,7 @@
                     "inputs": {},
                     "next": "W]r}6GZ@Xj4Z_g3i(frU",
                     "opcode": "data_hidevariable",
-                    "parent": "@:vB-up8(9l5{Hof?~lH",
+                    "parent": "n`Fu$L^VzTz|XGAIwt%2",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -28269,6 +28309,15 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "n`Fu$L^VzTz|XGAIwt%2": {
+                    "fields": {},
+                    "inputs": {},
+                    "next": "RT:Qb6A![uaXUv_VUnri",
+                    "opcode": "looks_show",
+                    "parent": "@:vB-up8(9l5{Hof?~lH",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "oL3K4?fC77]V$~G?LFz!": {
                     "fields": {},
                     "inputs": {},
@@ -28442,7 +28491,7 @@
                     "rotationCenterY": 43.10355678118654
                 }
             ],
-            "currentCostume": 1,
+            "currentCostume": 0,
             "direction": 90,
             "draggable": false,
             "isStage": false,
@@ -28468,7 +28517,7 @@
                     "0"
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -93,
             "y": 158
@@ -31351,7 +31400,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -134.0100004
+            "y": -160
         },
         {
             "blocks": {
@@ -36557,11 +36606,11 @@
                 ],
                 "Mp[)!aC_eq!,v(S?w@t8": [
                     "LocalLevel#",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "aNSNCqKnSFox$[P1FX-N": [
                     "calcType",
-                    4
+                    5
                 ],
                 "hK#I/IWs;ghhglh1*_1u": [
                     "MetaTmp",
@@ -37430,9 +37479,9 @@
                     "rotationCenterY": 134.1344
                 }
             ],
-            "currentCostume": 1,
+            "currentCostume": 0,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
             "layerOrder": 18,
             "lists": {},
@@ -37453,10 +37502,10 @@
             "variables": {
                 "A2ny[#v4z~^lytvXdPMK": [
                     "clickTimer",
-                    10000
+                    11
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 54,
             "y": -29
@@ -39618,7 +39667,7 @@
                 ],
                 "HoOUaO6Q/Ov-_~wzcK+A": [
                     "LocalLevel#",
-                    0
+                    "CustomLevelCreator"
                 ],
                 "WCvAF:i_*JQAI)jS}W9w": [
                     "i",
@@ -40088,7 +40137,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -151.0100004
+            "y": -177
         },
         {
             "blocks": {
@@ -40540,7 +40589,7 @@
             "visible": true,
             "volume": 100,
             "x": -200,
-            "y": -136.0100004
+            "y": -162
         },
         {
             "blocks": {
@@ -42214,9 +42263,9 @@
             ],
             "currentCostume": 5,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 22,
+            "layerOrder": 25,
             "lists": {},
             "name": "DeathBlockLoc",
             "rotationStyle": "all around",
@@ -42258,7 +42307,7 @@
                     "0"
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 54,
             "y": 21
@@ -43896,9 +43945,9 @@
             ],
             "currentCostume": 3,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 23,
+            "layerOrder": 24,
             "lists": {},
             "name": "GroundBlockLoc",
             "rotationStyle": "all around",
@@ -43936,7 +43985,7 @@
                     -170
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 104,
             "y": 21
@@ -45549,9 +45598,9 @@
             ],
             "currentCostume": 1,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 21,
+            "layerOrder": 26,
             "lists": {},
             "name": "ClimbBlockLoc",
             "rotationStyle": "all around",
@@ -45589,7 +45638,7 @@
                     33
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 104,
             "y": 73
@@ -47171,9 +47220,9 @@
             ],
             "currentCostume": 1,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 20,
+            "layerOrder": 27,
             "lists": {},
             "name": "WallBlockLoc",
             "rotationStyle": "all around",
@@ -47211,7 +47260,7 @@
                     71
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 54,
             "y": 73
@@ -48078,7 +48127,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 19,
+            "layerOrder": 28,
             "lists": {},
             "name": "SaveButton",
             "rotationStyle": "all around",
@@ -48104,7 +48153,7 @@
                     0
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 50,
             "y": 108
@@ -48471,9 +48520,9 @@
             ],
             "currentCostume": 0,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 26,
+            "layerOrder": 21,
             "lists": {},
             "name": "EndBlockLoc",
             "rotationStyle": "all around",
@@ -48503,7 +48552,7 @@
                     3
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 194,
             "y": -127
@@ -48977,9 +49026,9 @@
             ],
             "currentCostume": 0,
             "direction": 90,
-            "draggable": false,
+            "draggable": true,
             "isStage": false,
-            "layerOrder": 27,
+            "layerOrder": 20,
             "lists": {},
             "name": "PlayerLoc",
             "rotationStyle": "all around",
@@ -49009,7 +49058,7 @@
                     -90
                 ]
             },
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": -165,
             "y": -106.99999999999999
@@ -49485,7 +49534,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 25,
+            "layerOrder": 22,
             "lists": {},
             "name": "SettingsSprite",
             "rotationStyle": "all around",
@@ -49502,7 +49551,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 91,
             "y": 101
@@ -49995,7 +50044,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 24,
+            "layerOrder": 23,
             "lists": {},
             "name": "PlaySprite",
             "rotationStyle": "all around",
@@ -50012,7 +50061,7 @@
                 }
             ],
             "variables": {},
-            "visible": false,
+            "visible": true,
             "volume": 100,
             "x": 134,
             "y": 103
@@ -50653,8 +50702,8 @@
                     "parent": null,
                     "shadow": false,
                     "topLevel": true,
-                    "x": -1663,
-                    "y": 887
+                    "x": -1683,
+                    "y": 729
                 },
                 "Eu}|QVY|Q@{`+hru0$NA": {
                     "fields": {
