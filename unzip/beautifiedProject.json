@@ -146,7 +146,7 @@
         },
         {
             "height": 0,
-            "id": "b(4ei9XT4ArH:J6Ja)c-_yposition",
+            "id": "~mOrLJ%Nl;EG]jnM8r.}_yposition",
             "isDiscrete": true,
             "mode": "default",
             "opcode": "motion_yposition",
@@ -316,7 +316,7 @@
             "sliderMax": 100,
             "sliderMin": 0,
             "spriteName": null,
-            "value": "0",
+            "value": 5,
             "visible": false,
             "width": 0,
             "x": 366,
@@ -6935,7 +6935,7 @@
                 ],
                 "SkuHyK@Q-XA1IVN}4dV+": [
                     "SpaceLetGo",
-                    "1"
+                    "0"
                 ],
                 "T(:Mfi,FBVh=PTeG^Z^J": [
                     "j",
@@ -15404,7 +15404,7 @@
                             ]
                         ]
                     },
-                    "next": "-X94%v/X1fj*Q+~K}wxZ",
+                    "next": ",{ID[9.AmBkmQiI!gm:R",
                     "opcode": "data_changevariableby",
                     "parent": "X6sd-g%t80^mdYvD[eR0",
                     "shadow": false,
@@ -15496,6 +15496,24 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                ",{ID[9.AmBkmQiI!gm:R": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "z9TN4JZjNhgYn?tz@W-."
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "-X94%v/X1fj*Q+~K}wxZ"
+                        ]
+                    },
+                    "next": "1,B!P6-R:[Un[6]3i!{J",
+                    "opcode": "control_if",
+                    "parent": "(e9Q*}NHV?+daW9!gOXr",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "-:=FZn?!4rpsId6hPax%": {
                     "fields": {},
                     "inputs": {
@@ -15542,9 +15560,9 @@
                             ]
                         ]
                     },
-                    "next": "1,B!P6-R:[Un[6]3i!{J",
+                    "next": null,
                     "opcode": "data_setvariableto",
-                    "parent": "(e9Q*}NHV?+daW9!gOXr",
+                    "parent": ",{ID[9.AmBkmQiI!gm:R",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -15658,7 +15676,7 @@
                     },
                     "next": "d8d`@F,}~#-v%C+jlv1W",
                     "opcode": "control_wait_until",
-                    "parent": "-X94%v/X1fj*Q+~K}wxZ",
+                    "parent": ",{ID[9.AmBkmQiI!gm:R",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -17084,6 +17102,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "z9TN4JZjNhgYn?tz@W-.": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "jumpAvaliable",
+                                "p*tS!#X),Aq}Az8t=S.S"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_lt",
+                    "parent": ",{ID[9.AmBkmQiI!gm:R",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "z:G3H|$-utR@yJq,F,pJ": {
                     "fields": {},
                     "inputs": {
@@ -17622,9 +17669,9 @@
                             ]
                         ]
                     },
-                    "next": "f91HQ=.x(}pSH{!,+@wP",
+                    "next": "8fkj~Ay2fUKvK:[`n_f(",
                     "opcode": "data_changevariableby",
-                    "parent": "}IorbDz.2:m/@^b*d0(r",
+                    "parent": "xGnhpA8jegXc?@a3q;k;",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -17789,6 +17836,26 @@
                     "topLevel": true,
                     "x": 896,
                     "y": 176
+                },
+                "8fkj~Ay2fUKvK:[`n_f(": {
+                    "fields": {},
+                    "inputs": {
+                        "CONDITION": [
+                            3,
+                            "vRUQe*Ut(3;/]rMQp8CL",
+                            null
+                        ],
+                        "SUBSTACK": [
+                            3,
+                            "n;}X-kwh?[Q{1Ixn@e;J",
+                            null
+                        ]
+                    },
+                    "next": "f91HQ=.x(}pSH{!,+@wP",
+                    "opcode": "control_if",
+                    "parent": "/|A]3}54v)Bb])c3[Xj+",
+                    "shadow": false,
+                    "topLevel": false
                 },
                 "9(4mh=aqD8CVQ=}HuL58": {
                     "fields": {},
@@ -18535,7 +18602,7 @@
                     },
                     "next": "()FJS=/Xd#XD0Nu!vv.^",
                     "opcode": "control_wait_until",
-                    "parent": "/|A]3}54v)Bb])c3[Xj+",
+                    "parent": "8fkj~Ay2fUKvK:[`n_f(",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -18629,6 +18696,28 @@
                     "next": null,
                     "opcode": "operator_equals",
                     "parent": "LQ1T8sbYM;*KG2P{s8zN",
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "n;}X-kwh?[Q{1Ixn@e;J": {
+                    "fields": {
+                        "VARIABLE": [
+                            "jumpAvaliable",
+                            "p*tS!#X),Aq}Az8t=S.S"
+                        ]
+                    },
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "data_setvariableto",
+                    "parent": "8fkj~Ay2fUKvK:[`n_f(",
                     "shadow": false,
                     "topLevel": false
                 },
@@ -18819,6 +18908,35 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "vRUQe*Ut(3;/]rMQp8CL": {
+                    "fields": {},
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "jumpAvaliable",
+                                "p*tS!#X),Aq}Az8t=S.S"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "next": null,
+                    "opcode": "operator_lt",
+                    "parent": "8fkj~Ay2fUKvK:[`n_f(",
+                    "shadow": false,
+                    "topLevel": false
+                },
                 "wQnrFC4k{IouorOcC$5O": {
                     "fields": {},
                     "inputs": {
@@ -18857,7 +18975,7 @@
                         ],
                         "SUBSTACK": [
                             2,
-                            "}IorbDz.2:m/@^b*d0(r"
+                            "/|A]3}54v)Bb])c3[Xj+"
                         ]
                     },
                     "next": null,
@@ -19025,28 +19143,6 @@
                     "shadow": true,
                     "topLevel": false
                 },
-                "}IorbDz.2:m/@^b*d0(r": {
-                    "fields": {
-                        "VARIABLE": [
-                            "jumpAvaliable",
-                            "p*tS!#X),Aq}Az8t=S.S"
-                        ]
-                    },
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "1"
-                            ]
-                        ]
-                    },
-                    "next": "/|A]3}54v)Bb])c3[Xj+",
-                    "opcode": "data_setvariableto",
-                    "parent": "xGnhpA8jegXc?@a3q;k;",
-                    "shadow": false,
-                    "topLevel": false
-                },
                 "}}{h[K4B}fVE]v^5p{oq": {
                     "fields": {},
                     "inputs": {
@@ -19139,6 +19235,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "(xmRR](7)73I|T]5hI2V": [
+                    12,
+                    "META-JumpCount",
+                    "r9/Zw_=%h~#Eqkc1`_1x",
+                    -173,
+                    28
+                ],
                 "*vT_ls7y/-}DaQz,iF#X": {
                     "fields": {
                         "TOUCHINGOBJECTMENU": [
@@ -19987,13 +20090,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                "b/13RF~C#o[pKJME:vaJ": [
-                    12,
-                    "META-JumpCount",
-                    "r9/Zw_=%h~#Eqkc1`_1x",
-                    -173,
-                    28
-                ],
                 "cJ}Jb6l}IHnHQoKibGsI": {
                     "fields": {
                         "VARIABLE": [
@@ -29927,9 +30023,8 @@
                     "fields": {},
                     "inputs": {
                         "SUBSTACK": [
-                            3,
-                            "V%d.s481VM0I,C*Z,O1D",
-                            null
+                            2,
+                            "V%d.s481VM0I,C*Z,O1D"
                         ]
                     },
                     "next": null,
@@ -29942,19 +30037,16 @@
                     "fields": {},
                     "inputs": {
                         "CONDITION": [
-                            3,
-                            "jtEz@)boYf3Ou~I[UqNO",
-                            null
+                            2,
+                            "jtEz@)boYf3Ou~I[UqNO"
                         ],
                         "SUBSTACK": [
-                            3,
-                            "g6,BB)m`gX)#|k{=)PYH",
-                            null
+                            2,
+                            "g6,BB)m`gX)#|k{=)PYH"
                         ],
                         "SUBSTACK2": [
-                            3,
-                            "YYKLofM=+tB-}K2q]fMS",
-                            null
+                            2,
+                            "YYKLofM=+tB-}K2q]fMS"
                         ]
                     },
                     "next": null,
@@ -32080,13 +32172,6 @@
                     "shadow": false,
                     "topLevel": false
                 },
-                ";,|@8yYIevl9n6HS:1]S": [
-                    12,
-                    "META-StartLoc",
-                    "]}%[`M=@eK3*yDJFb3P!",
-                    -1662,
-                    2615
-                ],
                 ";Y9$g#`S$C%mQ4QTF=)r": {
                     "fields": {
                         "VARIABLE": [
@@ -32969,6 +33054,13 @@
                     "shadow": false,
                     "topLevel": false
                 },
+                "NJ:Fl!#0;|%Fl@rGc]=|": [
+                    12,
+                    "META-StartLoc",
+                    "]}%[`M=@eK3*yDJFb3P!",
+                    -1662,
+                    2615
+                ],
                 "NYA_f2RD9n).VkntN-=$": {
                     "fields": {},
                     "inputs": {
@@ -41894,7 +41986,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 22,
+            "layerOrder": 24,
             "lists": {},
             "name": "DeathBlockLoc",
             "rotationStyle": "all around",
@@ -45229,7 +45321,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 21,
+            "layerOrder": 25,
             "lists": {},
             "name": "ClimbBlockLoc",
             "rotationStyle": "all around",
@@ -46851,7 +46943,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 20,
+            "layerOrder": 26,
             "lists": {},
             "name": "WallBlockLoc",
             "rotationStyle": "all around",
@@ -47756,7 +47848,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 19,
+            "layerOrder": 27,
             "lists": {},
             "name": "SaveButton",
             "rotationStyle": "all around",
@@ -48151,7 +48243,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 26,
+            "layerOrder": 20,
             "lists": {},
             "name": "EndBlockLoc",
             "rotationStyle": "all around",
@@ -48657,7 +48749,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 27,
+            "layerOrder": 19,
             "lists": {},
             "name": "PlayerLoc",
             "rotationStyle": "all around",
@@ -49163,7 +49255,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 25,
+            "layerOrder": 21,
             "lists": {},
             "name": "SettingsSprite",
             "rotationStyle": "all around",
@@ -49673,7 +49765,7 @@
             "direction": 90,
             "draggable": false,
             "isStage": false,
-            "layerOrder": 24,
+            "layerOrder": 22,
             "lists": {},
             "name": "PlaySprite",
             "rotationStyle": "all around",
